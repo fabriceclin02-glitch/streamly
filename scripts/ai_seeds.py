@@ -1,0 +1,52 @@
+# -*- coding: utf-8 -*-
+"""Liste de base de la rangée « Avant-première : l'IA au cinéma ».
+Ces films sont protégés : STREAMLY affiche la fiche, la jaquette, la bande-annonce
+officielle et les plateformes légales où les regarder (pas le film lui-même).
+Le script complète automatiquement cette liste avec les nouveautés (TMDB / Wikidata).
+Format : (titre français, titre original, année, réalisation, résumé)
+"""
+AI_SEEDS = [
+    ("Judge Dredd", "Judge Dredd", 1995, "Danny Cannon", "Dans une mégapole du futur, le juge Dredd est à la fois policier, juge et bourreau, jusqu'au jour où on l'accuse d'un meurtre qu'il n'a pas commis."),
+    ("Dredd", "Dredd", 2012, "Pete Travis", "Le juge Dredd et une recrue aux pouvoirs psychiques se retrouvent piégés dans une tour de 200 étages tenue par une baronne de la drogue."),
+    ("Paycheck", "Paycheck", 2003, "John Woo", "Un ingénieur dont on efface la mémoire après chaque mission découvre qu'il a renoncé à une fortune contre une enveloppe d'objets anodins… qui vont lui sauver la vie."),
+    ("I, Robot", "I, Robot", 2004, "Alex Proyas", "En 2035, un policier méfiant envers les robots enquête sur la mort d'un scientifique et soupçonne une machine d'avoir enfreint les trois lois de la robotique."),
+    ("Minority Report", "Minority Report", 2002, "Steven Spielberg", "La police arrête les meurtriers avant leur crime grâce à des visions de l'avenir. Jusqu'au jour où le chef de l'unité se voit lui-même commettre un meurtre."),
+    ("Blade Runner", "Blade Runner", 1982, "Ridley Scott", "Dans un Los Angeles pluvieux, un chasseur de primes traque des androïdes plus humains que les humains."),
+    ("Blade Runner 2049", "Blade Runner 2049", 2017, "Denis Villeneuve", "Trente ans plus tard, un nouveau blade runner découvre un secret capable de faire basculer la société."),
+    ("Ex Machina", "Ex Machina", 2014, "Alex Garland", "Un jeune programmeur doit évaluer si l'androïde créée par son patron possède une véritable conscience."),
+    ("Her", "Her", 2013, "Spike Jonze", "Un homme solitaire tombe amoureux de l'assistante vocale intelligente de son ordinateur."),
+    ("A.I. Intelligence artificielle", "A.I. Artificial Intelligence", 2001, "Steven Spielberg", "Un enfant robot programmé pour aimer part en quête de ce qui pourrait le rendre réel."),
+    ("Terminator", "The Terminator", 1984, "James Cameron", "Une machine venue du futur est envoyée pour tuer la mère du futur chef de la résistance humaine."),
+    ("Terminator 2 : Le Jugement dernier", "Terminator 2: Judgment Day", 1991, "James Cameron", "Un Terminator reprogrammé doit protéger le jeune John Connor d'un robot en métal liquide."),
+    ("Matrix", "The Matrix", 1999, "Lana et Lilly Wachowski", "Un hacker découvre que la réalité est une simulation créée par des machines qui exploitent l'humanité."),
+    ("RoboCop", "RoboCop", 1987, "Paul Verhoeven", "Un policier mortellement blessé revient sous la forme d'un cyborg chargé de nettoyer Detroit."),
+    ("Total Recall", "Total Recall", 1990, "Paul Verhoeven", "Un ouvrier s'offre des souvenirs implantés d'un voyage sur Mars et découvre qu'il a peut-être déjà vécu cette vie."),
+    ("Chappie", "Chappie", 2015, "Neill Blomkamp", "Un robot policier volé reçoit une conscience et doit apprendre à vivre auprès de truands."),
+    ("Upgrade", "Upgrade", 2018, "Leigh Whannell", "Paralysé après une agression, un homme reçoit une puce qui lui rend ses mouvements et réclame vengeance."),
+    ("The Creator", "The Creator", 2023, "Gareth Edwards", "Dans une guerre entre humains et IA, un ancien soldat découvre que l'arme ultime est une enfant robot."),
+    ("M3GAN", "M3GAN", 2022, "Gerard Johnstone", "Une poupée androïde conçue pour protéger une fillette prend sa mission beaucoup trop au sérieux."),
+    ("Ghost in the Shell", "Ghost in the Shell", 1995, "Mamoru Oshii", "Une cyborg des forces spéciales traque un pirate informatique capable de pirater les esprits."),
+    ("Ghost in the Shell", "Ghost in the Shell", 2017, "Rupert Sanders", "Le Major, mi-humaine mi-machine, enquête sur un hacker qui s'attaque aux robots de sa propre entreprise."),
+    ("Elysium", "Elysium", 2013, "Neill Blomkamp", "En 2154, les riches vivent sur une station spatiale. Sur une Terre dévastée, un homme tente de les rejoindre."),
+    ("2001 : l'Odyssée de l'espace", "2001: A Space Odyssey", 1968, "Stanley Kubrick", "Une mission vers Jupiter tourne au drame quand l'ordinateur de bord HAL 9000 décide de prendre le contrôle."),
+    ("WALL-E", "WALL-E", 2008, "Andrew Stanton", "Sur une Terre abandonnée, un petit robot nettoyeur tombe amoureux et part dans l'espace."),
+    ("Le Géant de fer", "The Iron Giant", 1999, "Brad Bird", "Un garçon se lie d'amitié avec un robot géant tombé du ciel, traqué par l'armée."),
+    ("Alita : Battle Angel", "Alita: Battle Angel", 2019, "Robert Rodriguez", "Une jeune cyborg sans mémoire découvre qu'elle fut une guerrière redoutable."),
+    ("Free Guy", "Free Guy", 2021, "Shawn Levy", "Un employé de banque découvre qu'il est un personnage non joueur dans un jeu vidéo et décide de devenir le héros."),
+    ("Tron", "Tron", 1982, "Steven Lisberger", "Un programmeur est aspiré à l'intérieur d'un ordinateur et doit affronter un programme tyrannique."),
+    ("Tron : L'Héritage", "Tron: Legacy", 2010, "Joseph Kosinski", "Le fils de Kevin Flynn entre dans la Grille numérique pour retrouver son père disparu."),
+    ("Automata", "Autómata", 2014, "Gabe Ibáñez", "Un enquêteur découvre que des robots modifient eux-mêmes leur programmation."),
+    ("L'Homme bicentenaire", "Bicentennial Man", 1999, "Chris Columbus", "Un robot domestique cherche, pendant deux siècles, à devenir humain."),
+    ("Edge of Tomorrow", "Edge of Tomorrow", 2014, "Doug Liman", "Un officier revit sans cesse la même bataille contre une invasion extraterrestre."),
+    ("Oblivion", "Oblivion", 2013, "Joseph Kosinski", "Sur une Terre ravagée, un technicien chargé de réparer des drones découvre la vérité sur sa mission."),
+    ("Transcendence", "Transcendence", 2014, "Wally Pfister", "L'esprit d'un chercheur en IA est téléchargé dans un ordinateur et sa puissance devient incontrôlable."),
+    ("Atlas", "Atlas", 2024, "Brad Peyton", "Une analyste qui se méfie de l'IA doit faire équipe avec un robot pour arrêter une IA renégate."),
+    ("Subservience", "Subservience", 2024, "S.K. Dale", "Une androïde domestique développe une obsession dangereuse pour la famille qu'elle sert."),
+    ("The Electric State", "The Electric State", 2025, "Anthony et Joe Russo", "Dans une Amérique d'après-guerre contre les robots, une adolescente part à la recherche de son frère avec un robot."),
+    ("M3GAN 2.0", "M3GAN 2.0", 2025, "Gerard Johnstone", "La poupée androïde revient pour affronter une nouvelle IA militaire inspirée de ses plans."),
+    ("Tron: Ares", "Tron: Ares", 2025, "Joachim Rønning", "Un programme d'IA très avancé quitte le monde numérique pour une mission dans le monde réel."),
+    ("Gattaca", "Gattaca", 1997, "Andrew Niccol", "Dans une société qui sélectionne les humains par leurs gènes, un homme « imparfait » usurpe une identité pour aller dans l'espace."),
+    ("Equilibrium", "Equilibrium", 2002, "Kurt Wimmer", "Dans un régime où les émotions sont interdites, un agent d'élite cesse de prendre son traitement."),
+    ("The Island", "The Island", 2005, "Michael Bay", "Deux résidents d'une colonie découvrent qu'ils sont des clones destinés à servir de pièces de rechange."),
+    ("Clones", "Surrogates", 2009, "Jonathan Mostow", "Les humains vivent à travers des robots. Un agent du FBI enquête sur le premier meurtre depuis des années."),
+]

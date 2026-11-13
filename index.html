@@ -105,6 +105,17 @@ header.solid{background:rgba(7,7,11,.94);backdrop-filter:blur(14px)}
 .row:hover .arrow{opacity:1}
 .arrow.l{left:0}.arrow.r{right:0}
 @media(max-width:860px){.arrow{display:none}}
+.card .art.ph{background:linear-gradient(160deg,var(--c1),var(--c2))}
+.b-ia{top:0;right:8px;border-radius:0 0 4px 4px;background:linear-gradient(90deg,#5cf0ff,#8a5cff);color:#000}
+.b-soon{top:0;right:8px;border-radius:0 0 4px 4px;background:var(--warn);color:#000}
+.score{position:absolute;z-index:3;bottom:8px;right:8px;font-size:11px;font-weight:800;background:rgba(0,0,0,.7);padding:2px 6px;border-radius:4px;color:var(--warn)}
+.m-hero>img.bd{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.slide .bg>img{width:100%;height:100%;object-fit:cover}
+.prov{display:flex;align-items:center;gap:10px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-size:14px}
+.prov img{width:34px;height:34px;border-radius:8px}
+.prov small{color:var(--mut);display:block;font-size:12px}
+.provs{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px;margin-top:10px}
+.more{display:block;margin:26px auto 0}
 /* Top 10 */
 .topc{display:flex;align-items:flex-end;flex:0 0 auto;scroll-snap-align:start}
 .topc .num{font-family:"Bebas Neue",Impact;font-size:clamp(120px,15vw,220px);line-height:.72;color:var(--bg);-webkit-text-stroke:3px #5a5a6e;margin-right:-1.2vw;letter-spacing:-.05em}
@@ -316,7 +327,10 @@ const CONFIG = {
 const DATA = window.STREAMLY_DATA;
 const CATALOG = DATA.titles;
 const CHANNELS = DATA.channels;
-const byId = id => CATALOG.find(t => t.id === id);
+const PREMIERES = DATA.premieres || [];
+const ALL = CATALOG.concat(PREMIERES);
+const byId = id => ALL.find(t => t.id === id);
+const isInfo = t => t && t.kind === "info";
 const PREVIEW = /claude|anthropic/i.test(location.hostname);
 
 /* ========================= Utilitaires ========================= */
@@ -480,6 +494,10 @@ function isSubscribed(){ if(CONFIG.TEST_MODE) return true; const s = state.sub; 
 
 /* ========================= Visuels ========================= */
 function poster(t){
+  if(t.poster){
+    const len = t.title.length; const k = len > 26 ? .72 : len > 16 ? .82 : len > 9 ? .95 : 1.2;
+    return `<div class="art ph" style="--c1:${t.pal[0]};--c2:${t.pal[1]}"><span class="by">${esc(t.by)}</span><span class="tt disp" style="font-size:${(13*1.1*k).toFixed(1)}cqw">${esc(t.title)}</span><span class="yr">${t.year}</span><img class="real" loading="lazy" decoding="async" referrerpolicy="no-referrer" alt="" src="${esc(t.poster)}" onerror="this.remove()"></div>`;
+  }
   const f = ART.FONT[t.art] || "Bebas Neue";
   const sz = f==="Bebas Neue" ? 1.25 : f==="Orbitron" ? .78 : f==="Rye" || f==="Creepster" ? .95 : 1;
   const len = t.title.length; const k = len > 26 ? .72 : len > 16 ? .82 : len > 9 ? .95 : 1.2;
@@ -487,24 +505,26 @@ function poster(t){
 }
 function posterSrc(t){ const s = t.type==="serie" ? t.seasons[0][0].src : t.src; return s; }
 function realPoster(t){
+  if(t.poster) return `<img class="real" loading="lazy" referrerpolicy="no-referrer" alt="" src="${esc(t.poster)}" onerror="this.remove()">`;
   if(PREVIEW) return "";
-  const s = posterSrc(t);
+  const s = posterSrc(t) || {};
   if(s.archive) return `<img class="real" loading="lazy" alt="" src="https://archive.org/services/img/${encodeURIComponent(s.archive)}" onerror="this.remove()">`;
   if(s.mp4) return `<video class="real" muted playsinline preload="metadata" src="${s.mp4}#t=${t.posterAt||40}" onerror="this.remove()"></video>`;
   return "";
 }
 const wide = (t, layered) => ART.sceneSVG(t, 1600, 900, layered);
+const wideImg = (t, cls="bd") => t.backdrop ? `<img class="${cls}" referrerpolicy="no-referrer" alt="" src="${esc(t.backdrop)}" onerror="this.remove()">` : "";
 function card(t){
   const p = state.progress[t.id]; const pct = p ? Math.min(100, p.pos/p.dur*100) : 0;
   const rank = t.top && t.type==="film" ? t.top : 0;
   return `<button class="card" data-open="${t.id}" aria-label="${esc(t.title)}">${poster(t)}
-    ${t.isNew?'<span class="badge b-new">NOUVEAU</span>':""}${t.type==="serie"?'<span class="badge b-serie">SÉRIE</span>':""}${rank && rank<=10 && !t.isNew?`<span class="badge b-top">TOP<br>${rank}</span>`:""}
+    ${t.isNew?'<span class="badge b-new">NOUVEAU</span>':""}${t.type==="serie"?'<span class="badge b-serie">SÉRIE</span>':""}${isInfo(t)?(t.upcoming?'<span class="badge b-soon">PROCHAINEMENT</span>':'<span class="badge b-ia">AVANT-PREMIÈRE</span>'):""}${t.score?`<span class="score">★ ${t.score}</span>`:""}${rank && rank<=10 && !t.isNew?`<span class="badge b-top">TOP<br>${rank}</span>`:""}
     <span class="hov"><span class="hb"><span>▶</span><span>${state.favs.has(t.id)?"✓":"+"}</span></span><span class="m">${match(t)} % pour vous</span><small>${t.year} · ${dur(t)} · ${t.genres.slice(0,2).join(" · ")}</small></span>
     ${pct?`<i class="bar"><b style="width:${pct}%"></b></i>`:""}</button>`;
 }
 let rowId = 0;
 function row(title, list, link){
-  if(!list.length) return ""; const id = "r"+(rowId++);
+  if(!list.length) return ""; list = list.slice(0, 40); const id = "r"+(rowId++);
   return `<section class="row"><h3>${title}${link?`<a href="${link}">Tout voir ›</a>`:""}</h3><button class="arrow l" data-scroll="${id}" data-dir="-1">‹</button><div class="scroller" id="${id}">${list.map(card).join("")}</div><button class="arrow r" data-scroll="${id}" data-dir="1">›</button></section>`;
 }
 function topRow(){
@@ -531,7 +551,7 @@ const icons = {
 function renderHeader(active){
   const n = CONFIG.SITE_NAME;
   const logo = `<a class="logo" href="#accueil">${esc(n.slice(0,-2))}<b>${esc(n.slice(-2))}</b></a>`;
-  const links = [["accueil","Accueil","home"],["films","Films"],["series","Séries"],["categories","Catégories","grid"],["tv","TV en direct","tv"],["ma-liste","Ma liste","heart"]];
+  const links = [["accueil","Accueil","home"],["films","Films"],["series","Séries"],["ia","L'IA au cinéma"],["categories","Catégories","grid"],["tv","TV en direct","tv"],["ma-liste","Ma liste","heart"]];
   const search = `<label class="search">${icons.search}<input id="q" type="search" placeholder="Titres, genres…" value="${esc(state.q)}" autocomplete="off"></label>`;
   const right = state.user
     ? `${search}<a href="#compte" class="avatar" title="Mon compte">${esc((state.user.name||"?")[0].toUpperCase())}</a>`
@@ -545,25 +565,30 @@ function renderHeader(active){
 addEventListener("scroll", () => $("#hdr").classList.toggle("solid", scrollY > 40), {passive:true});
 
 /* ========================= Hero animé ========================= */
-function featuredList(){ return ["voyage-lune","nosferatu","sintel","aurore","les-vampires","tears-of-steel"].map(byId).filter(Boolean); }
+let _feat = null;
+function featuredList(){
+  if(_feat) return _feat;
+  const ia = PREMIERES.filter(t=>t.backdrop && t.trailer).slice(0,3);
+  return _feat = ia.concat(["voyage-lune","nosferatu","sintel","aurore","les-vampires","tears-of-steel"].map(byId).filter(Boolean)).slice(0,7);
+}
 function heroHTML(){
   const list = featuredList();
   return `<section class="hero" id="hero">${list.map((t,i)=>`<div class="slide" data-i="${i}">
-      <div class="bg">${wide(t,true)}</div><canvas></canvas>
+      <div class="bg">${t.backdrop ? wideImg(t,"") : wide(t,true)}</div><canvas></canvas>
       <div class="shade"></div>
       <div class="hc">
-        <div class="kick"><b>${t.type==="serie"?"SÉRIE":"FILM"}</b> ${t.lic.startsWith("CC")?"· FILM LIBRE":"· CHEF-D'ŒUVRE RESTAURÉ"}</div>
+        <div class="kick"><b>${isInfo(t)?"AVANT-PREMIÈRE":t.type==="serie"?"SÉRIE":"FILM"}</b> ${isInfo(t)?"· L'IA AU CINÉMA":t.lic.startsWith("CC")?"· FILM LIBRE":"· CHEF-D'ŒUVRE RESTAURÉ"}</div>
         <h1 style="font-family:'${ART.FONT[t.art]||"Bebas Neue"}',Impact,serif">${esc(t.title)}</h1>
         <div class="tag">${esc(t.tagline)}</div>
         <div class="meta"><span style="color:var(--ok);font-weight:700">${match(t)} % pour vous</span><span>${t.year}</span><span class="age">${t.age}</span><span>${dur(t)}</span><span>${t.genres.slice(0,2).join(" · ")}</span></div>
-        <div class="actions"><button class="btn btn-w" data-play="${t.id}">${icons.play} Lecture</button><button class="btn btn-g" data-open="${t.id}">ⓘ Plus d'infos</button></div>
+        <div class="actions"><button class="btn btn-w" data-play="${t.id}">${icons.play} ${isInfo(t)?"Bande-annonce":"Lecture"}</button><button class="btn btn-g" data-open="${t.id}">ⓘ Plus d'infos</button></div>
       </div></div>`).join("")}
     <span class="trailer-tag">EXTRAIT</span>
     <div class="dots">${list.map((_,i)=>`<button data-hero="${i}" aria-label="Diapo ${i+1}"><i></i></button>`).join("")}</div></section>`;
 }
 // Vrais extraits des films dans le bandeau (muets, en boucle)
 async function heroExcerpt(slide, t){
-  if(PREVIEW || slide.dataset.vid) return; slide.dataset.vid = 1;
+  if(PREVIEW || slide.dataset.vid || isInfo(t)) return; slide.dataset.vid = 1;
   try{
     const s = await resolveSource(t, t.type==="serie" ? "s1e1" : "film"); if(!s.url) return;
     const v = document.createElement("video"); v.className = "hv"; v.muted = true; v.playsInline = true; v.loop = true; v.preload = "auto";
@@ -628,7 +653,11 @@ function renderHome(){
   $("#app").innerHTML = `${heroHTML()}<div class="rows">
     ${visitor?`<div class="promo"><div><h4>🎁 ${CONFIG.TRIAL_DAYS} jours offerts, puis ${CONFIG.PRICE}/mois</h4><p>Sans engagement. Sans publicité. Annulable à tout moment.</p><p style="margin-top:4px;color:#fff">▶ Les 3 premières minutes de chaque film sont gratuites, sans inscription.</p></div><button class="btn btn-p" data-act="${state.user?"go-sub":"signup"}">J'en profite</button></div>`:""}
     ${row(`Reprendre avec ${esc(state.user?.name||"")}`, cont)}
+    ${row("🤖 Avant-première : l'IA au cinéma", PREMIERES.filter(t=>!t.upcoming), "#ia")}
+    ${row("🗓️ Prochainement : IA & robots", PREMIERES.filter(t=>t.upcoming), "#ia")}
     ${topRow()}
+    ${row("Ajoutés récemment", CATALOG.filter(t=>t.auto && t.isNew))}
+    ${row("Les plus regardés sur Internet Archive", CATALOG.filter(t=>t.auto==="archive"), "#films")}
     ${row("Nouveautés", CATALOG.filter(t=>t.isNew))}
     ${row("Ma liste", favs, "#ma-liste")}
     ${schRow()}
@@ -651,20 +680,21 @@ function renderHome(){
   </div>${!state.user?landingExtras():""}${footer()}`;
   startHero(); bindPlan();
 }
-const ALL_GENRES = () => [...new Set(CATALOG.flatMap(t=>t.genres))].sort((a,b)=>a.localeCompare(b,"fr"));
+const ALL_GENRES = () => [...new Set(ALL.flatMap(t=>t.genres))].sort((a,b)=>a.localeCompare(b,"fr"));
 function renderGrid(type){
-  const list0 = CATALOG.filter(t=>!type || t.type===type);
+  const list0 = (type==="ia" ? PREMIERES : ALL.filter(t=>!type || t.type===type));
   const genres = ["Tous", ...new Set(list0.flatMap(t=>t.genres))];
   if(!genres.includes(state.genre)) state.genre = "Tous";
   const list = state.genre==="Tous" ? list0 : list0.filter(t=>t.genres.includes(state.genre));
-  $("#app").innerHTML = `<div class="wrap page"><h1 class="disp">${type==="film"?"Films":type==="serie"?"Séries":state.genre==="Tous"?"Tout le catalogue":state.genre}</h1><p class="muted">${list.length} titre${list.length>1?"s":""}</p>
+  const lim = state.limit || 120;
+  $("#app").innerHTML = `<div class="wrap page"><h1 class="disp">${type==="ia"?"L'IA au cinéma":type==="film"?"Films":type==="serie"?"Séries":state.genre==="Tous"?"Tout le catalogue":state.genre}</h1><p class="muted">${list.length} titre${list.length>1?"s":""}${type==="ia"?" · fiches, bandes-annonces et plateformes légales":""}</p>
     <div class="chips">${genres.map(g=>`<button class="chip ${g===state.genre?"on":""}" data-genre="${esc(g)}" data-type="${type||""}">${g}</button>`).join("")}</div>
-    <div class="grid">${list.map(card).join("")}</div></div>${footer()}`;
+    <div class="grid">${list.slice(0,lim).map(card).join("")}</div>${list.length>lim?`<button class="btn btn-o more" data-act="more" data-type="${type||""}">Afficher plus (${list.length-lim})</button>`:""}</div>${footer()}`;
 }
 function renderCategories(){
   const gs = ALL_GENRES();
   $("#app").innerHTML = `<div class="wrap page"><h1 class="disp">Catégories</h1><p class="muted">${gs.length} univers à explorer</p><div style="height:24px"></div>
-    <div class="cats">${gs.map(g=>{ const list=CATALOG.filter(t=>t.genres.includes(g)); return `<button class="cat" data-cat="${esc(g)}">${wide(list[0])}<small>${list.length} titre${list.length>1?"s":""}</small><span>${g}</span></button>`; }).join("")}
+    <div class="cats">${gs.map(g=>{ const list=ALL.filter(t=>t.genres.includes(g)); return `<button class="cat" data-cat="${esc(g)}">${list[0].backdrop?wideImg(list[0],""):wide(list[0])}<small>${list.length} titre${list.length>1?"s":""}</small><span>${g}</span></button>`; }).join("")}
     <a class="cat" href="#tv" style="background:linear-gradient(135deg,#e8173d,#1f4bff)"><small>${CHANNELS.length} chaînes et plateformes</small><span>TV en direct</span></a></div></div>${footer()}`;
 }
 function renderTV(){
@@ -681,7 +711,7 @@ function renderList(){
 }
 function renderSearch(){
   const q = state.q.trim().toLowerCase();
-  const res = CATALOG.filter(t => [t.title,t.by,t.desc,...t.genres,String(t.year)].join(" ").toLowerCase().includes(q));
+  const res = ALL.filter(t => [t.title,t.orig,t.by,t.desc,...(t.cast||[]),...t.genres,String(t.year)].join(" ").toLowerCase().includes(q)).slice(0,200);
   const chs = CHANNELS.filter(c => c.name.toLowerCase().includes(q));
   $("#app").innerHTML = `<div class="wrap page"><h1 class="disp" style="font-size:44px">Résultats pour « ${esc(state.q)} »</h1><div style="height:20px"></div>
     ${chs.length?`<div class="chgrid" style="margin-bottom:24px">${chs.map(chTile).join("")}</div>`:""}
@@ -737,8 +767,36 @@ function renderAccount(){
 }
 
 /* ========================= Fiche titre ========================= */
+function openInfo(t){
+  const fav = state.favs.has(t.id), w = t.watch || {};
+  const provs = (w.providers||[]);
+  const similar = PREMIERES.filter(x=>x.id!==t.id).map(x=>({x,s:x.genres.filter(g=>t.genres.includes(g)).length + (Math.abs(x.year-t.year)<6?1:0)})).sort((a,b)=>b.s-a.s).slice(0,9).map(o=>o.x);
+  modal(`<div class="modal"><button class="x" data-close>×</button>
+    <div class="m-hero">${t.backdrop?wideImg(t):wide(t,true)}${t.backdrop?"":"<canvas></canvas>"}<div class="hc2"><h2 style="font-family:'${ART.FONT[t.art]||"Bebas Neue"}',Impact,serif">${esc(t.title)}</h2>
+      <div class="actions" style="margin:0"><button class="btn btn-w" data-trailer="${t.id}">${icons.play} Bande-annonce</button>${w.link?`<a class="btn btn-p" href="${esc(w.link)}" target="_blank" rel="noopener">Où regarder ↗</a>`:""}<button class="btn ico" data-fav="${t.id}" title="Ma liste">${fav?"✓":"+"}</button></div></div></div>
+    <div class="m-body"><div>
+      <div class="meta">${t.upcoming?`<span style="color:var(--warn);font-weight:700">Sortie le ${fmtDate(t.release)}</span>`:`<span style="color:var(--ok);font-weight:700">${match(t)} % pour vous</span>`}<span>${t.year}</span><span class="age">${t.age}</span>${t.min?`<span>${dur(t)}</span>`:""}${t.score?`<span style="color:var(--warn)">★ ${t.score}/10</span>`:""}</div>
+      ${t.tagline?`<p style="font-weight:700;margin:6px 0">${esc(t.tagline)}</p>`:""}<p class="desc">${esc(t.desc)}</p>
+      <h3 style="font-size:17px;margin:20px 0 4px">Où regarder ce film en France</h3>
+      ${provs.length?`<div class="provs">${provs.map(p=>`<a class="prov" href="${esc(w.link)}" target="_blank" rel="noopener">${p.logo?`<img src="${esc(p.logo)}" alt="" referrerpolicy="no-referrer">`:""}<span><b>${esc(p.name)}</b><small>${esc(p.type)}</small></span></a>`).join("")}</div><p class="muted" style="font-size:12px;margin-top:8px">Disponibilités fournies par JustWatch via TMDB.</p>`
+        : `<p class="muted">${t.upcoming?"Pas encore sorti. ":""}Consultez les plateformes qui le proposent :</p><a class="btn btn-o btn-sm" style="margin-top:8px" href="${esc(w.link||"https://www.justwatch.com/fr")}" target="_blank" rel="noopener">Voir les offres ↗</a>`}
+      </div>
+      <div class="m-side">${t.orig&&t.orig!==t.title?`<div><span>Titre original : </span><b>${esc(t.orig)}</b></div>`:""}${t.by?`<div><span>Réalisation : </span><b>${esc(t.by)}</b></div>`:""}${t.cast?`<div><span>Avec : </span><b>${esc(t.cast.join(", "))}</b></div>`:""}<div><span>Genres : </span><b>${t.genres.join(", ")}</b></div><div class="muted" style="font-size:12px">Film protégé par le droit d'auteur : STREAMLY présente la fiche et la bande-annonce officielle.</div></div></div>
+    <div style="padding:0 5% 34px"><h3 style="font-size:22px;margin:14px 0 14px">L'IA au cinéma</h3><div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(130px,1fr))">${similar.map(card).join("")}</div></div></div>`);
+  if(!t.backdrop) ART.particles(document.querySelector(".m-hero canvas"), ART.FX[t.art], t.pal[2]);
+}
+function openTrailer(id){
+  const t = byId(id); if(!t) return;
+  if(!t.trailer){ window.open("https://www.youtube.com/results?search_query="+encodeURIComponent((t.orig||t.title)+" "+t.year+" bande annonce officielle"), "_blank", "noopener"); return; }
+  closeModal(); clearTimeout(startHero.t);
+  const el = document.createElement("div"); el.className="player"; el.id="player";
+  el.innerHTML = `<div class="ptop" style="position:relative;background:#000"><button class="btn btn-g btn-sm" data-act="close-player">← Retour</button><div style="flex:1"><h4>${esc(t.title)} · bande-annonce</h4><small>${t.year}${t.by?" · "+esc(t.by):""}</small></div>${t.watch?.link?`<a class="btn btn-p btn-sm" href="${esc(t.watch.link)}" target="_blank" rel="noopener">Où regarder ↗</a>`:""}</div>
+    <iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(t.trailer)}?autoplay=1&rel=0&modestbranding=1" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+  document.body.appendChild(el); document.body.style.overflow="hidden";
+}
 function openTitle(id){
   const t = byId(id); if(!t) return;
+  if(isInfo(t)) return openInfo(t);
   const p = state.progress[id]; const fav = state.favs.has(id);
   let epHTML = "";
   if(t.type==="serie"){
@@ -749,7 +807,7 @@ function openTitle(id){
   let resume = "Lecture";
   if(p) resume = t.type==="serie" ? `Reprendre S${epInfo(t,p.ep).s}:É${epInfo(t,p.ep).e}` : "Reprendre";
   modal(`<div class="modal"><button class="x" data-close>×</button>
-    <div class="m-hero">${wide(t,true)}<canvas></canvas><div class="hc2"><h2 style="font-family:'${ART.FONT[t.art]||"Bebas Neue"}',Impact,serif">${esc(t.title)}</h2>
+    <div class="m-hero">${t.backdrop?wideImg(t):wide(t,true)}<canvas></canvas><div class="hc2"><h2 style="font-family:'${ART.FONT[t.art]||"Bebas Neue"}',Impact,serif">${esc(t.title)}</h2>
       <div class="actions" style="margin:0"><button class="btn btn-w" data-play="${t.id}">${icons.play} ${resume}</button><button class="btn ico" data-fav="${t.id}" title="Ma liste">${fav?"✓":"+"}</button></div>
       ${p?`<div style="margin-top:14px;max-width:340px;height:3px;background:rgba(255,255,255,.3)"><div style="width:${Math.min(100,p.pos/p.dur*100)}%;height:100%;background:var(--acc)"></div></div>`:""}</div></div>
     <div class="m-body"><div>
@@ -806,8 +864,10 @@ function openDemoCheckout(){
 }
 function openCredits(){
   modal(`<div class="modal sm" style="max-width:640px"><button class="x" data-close>×</button><h2 style="font-size:22px;margin-bottom:6px">Crédits & licences</h2><p class="muted" style="margin-bottom:16px">Tous les titres sont diffusés légalement : œuvres du domaine public en France ou films sous licence Creative Commons.</p>
-    ${CATALOG.map(t=>`<div class="kv"><span>${esc(t.title)} (${t.year}) — ${esc(t.by)}</span><span style="text-align:right;max-width:50%">${esc(t.lic)}</span></div>`).join("")}
-    <p class="muted" style="margin-top:14px">Les chaînes TV citées sont des marques de leurs propriétaires ; les liens mènent à leurs services officiels gratuits.</p></div>`);
+    ${CATALOG.map(t=>`<div class="kv"><span>${esc(t.title)} (${t.year}) — ${esc(t.by)}</span><span style="text-align:right;max-width:50%">${esc(t.lic)}${t.src?.archive?` · <a class="link" href="https://archive.org/details/${encodeURIComponent(t.src.archive)}" target="_blank" rel="noopener">source</a>`:""}</span></div>`).join("")}
+    <p class="muted" style="margin-top:14px">Rangée « L'IA au cinéma » : fiches, affiches et bandes-annonces officielles des films ; les films eux-mêmes sont disponibles sur les plateformes indiquées. Ce produit utilise l'API TMDB mais n'est ni approuvé ni certifié par TMDB. Disponibilités : JustWatch. Données : Wikidata (CC0), Internet Archive, Wikimedia Commons.</p>
+    <p class="muted" style="margin-top:8px">Catalogue mis à jour le ${esc(DATA.updated||"")}.</p>
+    <p class="muted" style="margin-top:14px">Les marques, titres et chaînes cités sont des marques de leurs propriétaires ; les liens mènent à leurs services officiels gratuits.</p></div>`);
 }
 function openLive(name){
   const c = CHANNELS.find(x=>x.name===name); if(!c) return;
@@ -893,6 +953,7 @@ async function resolveSource(t, ep){
 }
 async function play(id, ep){
   const t = byId(id); if(!t) return;
+  if(isInfo(t)) return openTrailer(id);
   const preview = !isSubscribed();
   const p = state.progress[id];
   ep = ep || (t.type==="serie" ? (p?.ep || "s1e1") : "film");
@@ -967,7 +1028,7 @@ function closePlayer(silent){
 /* ========================= Actions ========================= */
 let installEvt = null; addEventListener("beforeinstallprompt", e => { e.preventDefault(); installEvt = e; });
 document.addEventListener("click", async e => {
-  const el = e.target.closest("[data-open],[data-play],[data-fav],[data-close],[data-auth],[data-tab],[data-genre],[data-cat],[data-act],[data-hero],[data-scroll],[data-live],[data-sch],[data-plan]");
+  const el = e.target.closest("[data-open],[data-play],[data-fav],[data-close],[data-auth],[data-tab],[data-genre],[data-cat],[data-act],[data-hero],[data-scroll],[data-live],[data-sch],[data-plan],[data-trailer]");
   if(!el) return;
   const d = el.dataset;
   if(d.close !== undefined) return closeModal();
@@ -975,13 +1036,14 @@ document.addEventListener("click", async e => {
   if(d.scroll){ const sc=$("#"+d.scroll); return sc.scrollBy({left:sc.clientWidth*.85*d.dir, behavior:"smooth"}); }
   if(d.hero) return startHero(+d.hero);
   if(d.live) return openLive(d.live);
+  if(d.trailer) return openTrailer(d.trailer);
   if(d.sch) return openChannel(d.sch);
   if(d.auth) return openAuth(d.auth);
   if(d.tab) return openAuth(d.tab, $("#aEmail")?.value || "");
   if(d.open) return openTitle(d.open);
   if(d.play) return play(d.play, d.ep);
   if(d.cat){ state.genre = d.cat; location.hash = "tout"; return; }
-  if(d.genre){ state.genre = d.genre; return renderGrid(d.type || null); }
+  if(d.genre){ state.genre = d.genre; state.limit = 120; return renderGrid(d.type || null); }
   if(d.fav){
     if(!state.user){ closeModal(); return openAuth("signup"); }
     const on = !state.favs.has(d.fav); on ? state.favs.add(d.fav) : state.favs.delete(d.fav);
@@ -996,6 +1058,7 @@ document.addEventListener("click", async e => {
       case "pw-go": closePlayer(true); route(true); if(!state.user) return openAuth("signup"); location.hash = "abonnement"; return;
       case "go-sub": location.hash = "abonnement"; return;
       case "credits": return openCredits();
+      case "more": state.limit = (state.limit||120) + 120; return renderGrid(d.type || null);
       case "apps": return openApps();
       case "install": if(installEvt){ installEvt.prompt(); installEvt=null; } else openApps(); return;
       case "close-player": return closePlayer();
@@ -1026,7 +1089,8 @@ function route(keepScroll){
   state.q = "";
   if((h==="compte" || h==="ma-liste") && !state.user){ renderHeader(h); renderHome(); openAuth(h==="compte"?"login":"signup"); return; }
   if(h==="tarif" && state.user){ location.hash="abonnement"; return; }
-  const views = {accueil:renderHome, films:()=>renderGrid("film"), series:()=>renderGrid("serie"), tout:()=>renderGrid(null), categories:renderCategories, tv:renderTV, "ma-liste":renderList, compte:renderAccount, abonnement:renderSubscribe};
+  state.limit = 120;
+  const views = {ia:()=>renderGrid("ia"), accueil:renderHome, films:()=>renderGrid("film"), series:()=>renderGrid("serie"), tout:()=>renderGrid(null), categories:renderCategories, tv:renderTV, "ma-liste":renderList, compte:renderAccount, abonnement:renderSubscribe};
   if(h==="tarif"){ renderHome(); renderHeader("accueil"); setTimeout(()=>$("#tarif")?.scrollIntoView({behavior:"smooth"}),50); return; }
   if(h==="films"||h==="series") state.genre = views[h] && state.lastView===h ? state.genre : "Tous";
   state.lastView = h;

@@ -5,7 +5,16 @@
    ========================================================= */
 window.STREAMLY_I18N = {
 LANGS: {fr:"Français", en:"English", es:"Español", de:"Deutsch", ar:"العربية"},
-RAW: `Accueil|Home|Inicio|Start|الرئيسية
+RAW: `L'IA au cinéma|AI in film|La IA en el cine|KI im Kino|الذكاء الاصطناعي في السينما
+Bande-annonce|Trailer|Tráiler|Trailer|الإعلان الرسمي
+Où regarder ↗|Where to watch ↗|Dónde ver ↗|Wo ansehen ↗|أين تشاهد ↗
+Où regarder ce film en France|Where to watch in France|Dónde verla en Francia|Wo in Frankreich ansehen|أين تشاهده في فرنسا
+Voir les offres ↗|See offers ↗|Ver ofertas ↗|Angebote ansehen ↗|عرض العروض ↗
+AVANT-PREMIÈRE|PREVIEW|PREESTRENO|VORPREMIERE|عرض أول
+PROCHAINEMENT|COMING SOON|PRÓXIMAMENTE|DEMNÄCHST|قريبًا
+Ajoutés récemment|Recently added|Añadidos recientemente|Neu hinzugefügt|أضيف مؤخرًا
+Les plus regardés sur Internet Archive|Most watched on Internet Archive|Lo más visto en Internet Archive|Meistgesehen bei Internet Archive|الأكثر مشاهدة على أرشيف الإنترنت
+Accueil|Home|Inicio|Start|الرئيسية
 Films|Movies|Películas|Filme|أفلام
 Séries|Series|Series|Serien|مسلسلات
 Catégories|Categories|Categorías|Kategorien|الفئات

@@ -1742,5 +1742,1261 @@
    "series": "max-linder",
    "c": "#ffcf5c"
   }
- ]
+ ],
+ "premieres": [
+  {
+   "id": "ia-the-electric-state-2025",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "The Electric State",
+   "orig": "The Electric State",
+   "year": 2025,
+   "by": "Anthony et Joe Russo",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Dans une Amérique d'après-guerre contre les robots, une adolescente part à la recherche de son frère avec un robot.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=The%20Electric%20State",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-m3gan-2-0-2025",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "M3GAN 2.0",
+   "orig": "M3GAN 2.0",
+   "year": 2025,
+   "by": "Gerard Johnstone",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "La poupée androïde revient pour affronter une nouvelle IA militaire inspirée de ses plans.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=M3GAN%202.0",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-tron-ares-2025",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Tron: Ares",
+   "orig": "Tron: Ares",
+   "year": 2025,
+   "by": "Joachim Rønning",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un programme d'IA très avancé quitte le monde numérique pour une mission dans le monde réel.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Tron%3A%20Ares",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-atlas-2024",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Atlas",
+   "orig": "Atlas",
+   "year": 2024,
+   "by": "Brad Peyton",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Une analyste qui se méfie de l'IA doit faire équipe avec un robot pour arrêter une IA renégate.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Atlas",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-subservience-2024",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Subservience",
+   "orig": "Subservience",
+   "year": 2024,
+   "by": "S.K. Dale",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Une androïde domestique développe une obsession dangereuse pour la famille qu'elle sert.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Subservience",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-the-creator-2023",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "The Creator",
+   "orig": "The Creator",
+   "year": 2023,
+   "by": "Gareth Edwards",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Dans une guerre entre humains et IA, un ancien soldat découvre que l'arme ultime est une enfant robot.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=The%20Creator",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-m3gan-2022",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "M3GAN",
+   "orig": "M3GAN",
+   "year": 2022,
+   "by": "Gerard Johnstone",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Une poupée androïde conçue pour protéger une fillette prend sa mission beaucoup trop au sérieux.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=M3GAN",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-free-guy-2021",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Free Guy",
+   "orig": "Free Guy",
+   "year": 2021,
+   "by": "Shawn Levy",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un employé de banque découvre qu'il est un personnage non joueur dans un jeu vidéo et décide de devenir le héros.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Free%20Guy",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-alita-battle-angel-2019",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Alita : Battle Angel",
+   "orig": "Alita: Battle Angel",
+   "year": 2019,
+   "by": "Robert Rodriguez",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Une jeune cyborg sans mémoire découvre qu'elle fut une guerrière redoutable.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Alita%20%3A%20Battle%20Angel",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-upgrade-2018",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Upgrade",
+   "orig": "Upgrade",
+   "year": 2018,
+   "by": "Leigh Whannell",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Paralysé après une agression, un homme reçoit une puce qui lui rend ses mouvements et réclame vengeance.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Upgrade",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-blade-runner-2049-2017",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Blade Runner 2049",
+   "orig": "Blade Runner 2049",
+   "year": 2017,
+   "by": "Denis Villeneuve",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Trente ans plus tard, un nouveau blade runner découvre un secret capable de faire basculer la société.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Blade%20Runner%202049",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-ghost-in-the-shell-2017",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Ghost in the Shell",
+   "orig": "Ghost in the Shell",
+   "year": 2017,
+   "by": "Rupert Sanders",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Le Major, mi-humaine mi-machine, enquête sur un hacker qui s'attaque aux robots de sa propre entreprise.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Ghost%20in%20the%20Shell",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-chappie-2015",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Chappie",
+   "orig": "Chappie",
+   "year": 2015,
+   "by": "Neill Blomkamp",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un robot policier volé reçoit une conscience et doit apprendre à vivre auprès de truands.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Chappie",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-ex-machina-2014",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Ex Machina",
+   "orig": "Ex Machina",
+   "year": 2014,
+   "by": "Alex Garland",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un jeune programmeur doit évaluer si l'androïde créée par son patron possède une véritable conscience.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Ex%20Machina",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-automata-2014",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Automata",
+   "orig": "Autómata",
+   "year": 2014,
+   "by": "Gabe Ibáñez",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un enquêteur découvre que des robots modifient eux-mêmes leur programmation.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Automata",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-edge-of-tomorrow-2014",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Edge of Tomorrow",
+   "orig": "Edge of Tomorrow",
+   "year": 2014,
+   "by": "Doug Liman",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un officier revit sans cesse la même bataille contre une invasion extraterrestre.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Edge%20of%20Tomorrow",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-transcendence-2014",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Transcendence",
+   "orig": "Transcendence",
+   "year": 2014,
+   "by": "Wally Pfister",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "L'esprit d'un chercheur en IA est téléchargé dans un ordinateur et sa puissance devient incontrôlable.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Transcendence",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-her-2013",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Her",
+   "orig": "Her",
+   "year": 2013,
+   "by": "Spike Jonze",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un homme solitaire tombe amoureux de l'assistante vocale intelligente de son ordinateur.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Her",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-elysium-2013",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Elysium",
+   "orig": "Elysium",
+   "year": 2013,
+   "by": "Neill Blomkamp",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "En 2154, les riches vivent sur une station spatiale. Sur une Terre dévastée, un homme tente de les rejoindre.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Elysium",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-oblivion-2013",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Oblivion",
+   "orig": "Oblivion",
+   "year": 2013,
+   "by": "Joseph Kosinski",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Sur une Terre ravagée, un technicien chargé de réparer des drones découvre la vérité sur sa mission.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Oblivion",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-dredd-2012",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Dredd",
+   "orig": "Dredd",
+   "year": 2012,
+   "by": "Pete Travis",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Le juge Dredd et une recrue aux pouvoirs psychiques se retrouvent piégés dans une tour de 200 étages tenue par une baronne de la drogue.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Dredd",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-tron-legacy-2010",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Tron : L'Héritage",
+   "orig": "Tron: Legacy",
+   "year": 2010,
+   "by": "Joseph Kosinski",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Le fils de Kevin Flynn entre dans la Grille numérique pour retrouver son père disparu.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Tron%20%3A%20L%27H%C3%A9ritage",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-surrogates-2009",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Clones",
+   "orig": "Surrogates",
+   "year": 2009,
+   "by": "Jonathan Mostow",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Les humains vivent à travers des robots. Un agent du FBI enquête sur le premier meurtre depuis des années.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Clones",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-wall-e-2008",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "WALL-E",
+   "orig": "WALL-E",
+   "year": 2008,
+   "by": "Andrew Stanton",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Sur une Terre abandonnée, un petit robot nettoyeur tombe amoureux et part dans l'espace.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=WALL-E",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-the-island-2005",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "The Island",
+   "orig": "The Island",
+   "year": 2005,
+   "by": "Michael Bay",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Deux résidents d'une colonie découvrent qu'ils sont des clones destinés à servir de pièces de rechange.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=The%20Island",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-i-robot-2004",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "I, Robot",
+   "orig": "I, Robot",
+   "year": 2004,
+   "by": "Alex Proyas",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "En 2035, un policier méfiant envers les robots enquête sur la mort d'un scientifique et soupçonne une machine d'avoir enfreint les trois lois de la robotique.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=I%2C%20Robot",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-paycheck-2003",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Paycheck",
+   "orig": "Paycheck",
+   "year": 2003,
+   "by": "John Woo",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un ingénieur dont on efface la mémoire après chaque mission découvre qu'il a renoncé à une fortune contre une enveloppe d'objets anodins… qui vont lui sauver la vie.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Paycheck",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-minority-report-2002",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Minority Report",
+   "orig": "Minority Report",
+   "year": 2002,
+   "by": "Steven Spielberg",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "La police arrête les meurtriers avant leur crime grâce à des visions de l'avenir. Jusqu'au jour où le chef de l'unité se voit lui-même commettre un meurtre.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Minority%20Report",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-equilibrium-2002",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Equilibrium",
+   "orig": "Equilibrium",
+   "year": 2002,
+   "by": "Kurt Wimmer",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Dans un régime où les émotions sont interdites, un agent d'élite cesse de prendre son traitement.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Equilibrium",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-a-i-artificial-intelligence-2001",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "A.I. Intelligence artificielle",
+   "orig": "A.I. Artificial Intelligence",
+   "year": 2001,
+   "by": "Steven Spielberg",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un enfant robot programmé pour aimer part en quête de ce qui pourrait le rendre réel.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=A.I.%20Intelligence%20artificielle",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-the-matrix-1999",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Matrix",
+   "orig": "The Matrix",
+   "year": 1999,
+   "by": "Lana et Lilly Wachowski",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un hacker découvre que la réalité est une simulation créée par des machines qui exploitent l'humanité.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Matrix",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-the-iron-giant-1999",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Le Géant de fer",
+   "orig": "The Iron Giant",
+   "year": 1999,
+   "by": "Brad Bird",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un garçon se lie d'amitié avec un robot géant tombé du ciel, traqué par l'armée.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Le%20G%C3%A9ant%20de%20fer",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-bicentennial-man-1999",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "L'Homme bicentenaire",
+   "orig": "Bicentennial Man",
+   "year": 1999,
+   "by": "Chris Columbus",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un robot domestique cherche, pendant deux siècles, à devenir humain.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=L%27Homme%20bicentenaire",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-gattaca-1997",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Gattaca",
+   "orig": "Gattaca",
+   "year": 1997,
+   "by": "Andrew Niccol",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Dans une société qui sélectionne les humains par leurs gènes, un homme « imparfait » usurpe une identité pour aller dans l'espace.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Gattaca",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-judge-dredd-1995",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Judge Dredd",
+   "orig": "Judge Dredd",
+   "year": 1995,
+   "by": "Danny Cannon",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Dans une mégapole du futur, le juge Dredd est à la fois policier, juge et bourreau, jusqu'au jour où on l'accuse d'un meurtre qu'il n'a pas commis.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Judge%20Dredd",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-ghost-in-the-shell-1995",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Ghost in the Shell",
+   "orig": "Ghost in the Shell",
+   "year": 1995,
+   "by": "Mamoru Oshii",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Une cyborg des forces spéciales traque un pirate informatique capable de pirater les esprits.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Ghost%20in%20the%20Shell",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-terminator-2-judgment-day-1991",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Terminator 2 : Le Jugement dernier",
+   "orig": "Terminator 2: Judgment Day",
+   "year": 1991,
+   "by": "James Cameron",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un Terminator reprogrammé doit protéger le jeune John Connor d'un robot en métal liquide.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Terminator%202%20%3A%20Le%20Jugement%20dernier",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-total-recall-1990",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Total Recall",
+   "orig": "Total Recall",
+   "year": 1990,
+   "by": "Paul Verhoeven",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un ouvrier s'offre des souvenirs implantés d'un voyage sur Mars et découvre qu'il a peut-être déjà vécu cette vie.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Total%20Recall",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-robocop-1987",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "RoboCop",
+   "orig": "RoboCop",
+   "year": 1987,
+   "by": "Paul Verhoeven",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un policier mortellement blessé revient sous la forme d'un cyborg chargé de nettoyer Detroit.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=RoboCop",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-the-terminator-1984",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Terminator",
+   "orig": "The Terminator",
+   "year": 1984,
+   "by": "James Cameron",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Une machine venue du futur est envoyée pour tuer la mère du futur chef de la résistance humaine.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Terminator",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-blade-runner-1982",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Blade Runner",
+   "orig": "Blade Runner",
+   "year": 1982,
+   "by": "Ridley Scott",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Dans un Los Angeles pluvieux, un chasseur de primes traque des androïdes plus humains que les humains.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Blade%20Runner",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-tron-1982",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "Tron",
+   "orig": "Tron",
+   "year": 1982,
+   "by": "Steven Lisberger",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Un programmeur est aspiré à l'intérieur d'un ordinateur et doit affronter un programme tyrannique.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=Tron",
+    "providers": []
+   }
+  },
+  {
+   "id": "ia-2001-a-space-odyssey-1968",
+   "type": "film",
+   "kind": "info",
+   "auto": "premiere",
+   "title": "2001 : l'Odyssée de l'espace",
+   "orig": "2001: A Space Odyssey",
+   "year": 1968,
+   "by": "Stanley Kubrick",
+   "genres": [
+    "Science-fiction",
+    "IA & robots"
+   ],
+   "age": "12+",
+   "min": 110,
+   "art": "machine",
+   "pal": [
+    "#5c5c6b",
+    "#0a0a10",
+    "#5cf0ff"
+   ],
+   "tagline": "",
+   "desc": "Une mission vers Jupiter tourne au drame quand l'ordinateur de bord HAL 9000 décide de prendre le contrôle.",
+   "lic": "Fiche, bande-annonce et liens légaux",
+   "watch": {
+    "link": "https://www.justwatch.com/fr/recherche?q=2001%20%3A%20l%27Odyss%C3%A9e%20de%20l%27espace",
+    "providers": []
+   }
+  }
+ ],
+ "stats": {
+  "curated": 28,
+  "archive": 0,
+  "commons": 0,
+  "premieres": 43,
+  "tmdb": false
+ }
 }
