@@ -947,7 +947,7 @@ async function resolveSource(t, ep){
     let vids = (j.files||[]).filter(f=>/\.mp4$/i.test(f.name));
     if(!vids.length) vids = (j.files||[]).filter(f=>/\.(webm|ogv|m4v)$/i.test(f.name));
     const pick = fmt => vids.filter(f=>(f.format||"").toLowerCase().includes(fmt)).sort((a,b)=>a.name.localeCompare(b.name));
-    const pool = [pick("h.264"), pick("mpeg4"), vids].find(a=>a.length);
+    const pool = [pick("512kb"), pick("h.264 ia"), pick("mpeg4"), pick("h.264"), vids].find(a=>a.length);
     const f = pool[Math.min(src.index||0, pool.length-1)];
     return {url:`https://archive.org/download/${encodeURIComponent(src.archive)}/${f.name.split("/").map(encodeURIComponent).join("/")}`};
   }catch(e){ return {iframe:`https://archive.org/embed/${encodeURIComponent(src.archive)}`}; }
@@ -971,9 +971,13 @@ async function play(id, ep){
   $("#pload").remove();
   if(s.sim) return simulate(t, durSec, start);
   if(s.iframe){ el.insertAdjacentHTML("beforeend", `<iframe src="${s.iframe}" allow="autoplay; fullscreen" allowfullscreen></iframe>`); if(preview) player.pvTimer = setTimeout(paywall, CONFIG.PREVIEW_SECONDS*1000); return; }
-  el.insertAdjacentHTML("beforeend", `<video id="vid" playsinline controls autoplay></video>`);
+  el.insertAdjacentHTML("beforeend", `<video id="vid" playsinline controls autoplay preload="auto"></video><div id="vload" class="sim" style="position:absolute;inset:0;pointer-events:none;background:transparent"><div class="note"><b>Chargement du film…</b><p class="muted" style="margin-top:6px">Les films d'archives peuvent mettre jusqu'à 30 secondes à démarrer.</p></div></div>`);
   const v = $("#vid");
-  v.onerror = () => simulate(t, durSec, start);
+  const hideLoad = () => { const l = $("#vload"); if(l) l.remove(); };
+  v.addEventListener("loadeddata", hideLoad); v.addEventListener("playing", hideLoad);
+  v.onerror = () => { hideLoad(); const ar = (t.type==="serie" ? epInfo(t,ep).src : t.src)?.archive;
+    if(ar && !PREVIEW){ v.remove(); el.insertAdjacentHTML("beforeend", `<iframe src="https://archive.org/embed/${encodeURIComponent(ar)}" allow="autoplay; fullscreen" allowfullscreen></iframe>`); }
+    else simulate(t, durSec, start); };
   v.onloadedmetadata = () => { if(start && start < v.duration-10) v.currentTime = start; };
   v.ontimeupdate = () => { if(player.preview){ if(player.pvStart==null) player.pvStart = v.currentTime; if(v.currentTime - player.pvStart >= CONFIG.PREVIEW_SECONDS){ v.pause(); paywall(); } return; } if(Date.now()-player.lastSave > 5000){ player.lastSave=Date.now(); saveProgress(v.currentTime, v.duration || durSec); } };
   v.onended = () => { saveProgress(v.duration, v.duration); nextEpisode(); };
