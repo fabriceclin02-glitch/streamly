@@ -1512,33 +1512,6 @@
    }
   },
   {
-   "id": "ar-hisnewjobcharleschaplin-1915",
-   "type": "film",
-   "auto": "archive",
-   "title": "CUKESIM's New Job!",
-   "year": 1915,
-   "by": "Inconnu",
-   "genres": [
-    "Drame",
-    "Muet"
-   ],
-   "age": "Tous publics",
-   "min": 20,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "Film libre de droits, version intégrale.",
-   "src": {
-    "archive": "HisNewJobCharlesChaplin-1915"
-   },
-   "poster": "https://archive.org/services/img/HisNewJobCharlesChaplin-1915",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-sex-madness",
    "type": "film",
    "auto": "archive",
@@ -5863,32 +5836,6 @@
    "lic": "Domaine public (œuvre de 1918)"
   },
   {
-   "id": "ar-fed-up-genetic-engineering",
-   "type": "film",
-   "auto": "archive",
-   "title": "Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives",
-   "year": 1930,
-   "by": "Angelo Sacerdote",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "About 70% of the food we eat contains genetically modified ingredients and is not labeled. The biotechnology industry is spending $50 million a year to convince us that this technology is our only hope for feeding the world and saving the environment. Family farmers are disappearing at an astonishing rate as people continue to go hungry both here and abroad. Using hilarious and disturbing archival footage and…",
-   "src": {
-    "archive": "Fed_Up_Genetic_Engineering"
-   },
-   "poster": "https://archive.org/services/img/Fed_Up_Genetic_Engineering",
-   "lic": "Creative Commons (by-nc-nd/3.0/us)"
-  },
-  {
    "id": "ar-cops1922",
    "type": "film",
    "auto": "archive",
@@ -5914,6 +5861,32 @@
    },
    "poster": "https://archive.org/services/img/Cops1922",
    "lic": "Domaine public (œuvre de 1922)"
+  },
+  {
+   "id": "ar-fed-up-genetic-engineering",
+   "type": "film",
+   "auto": "archive",
+   "title": "Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives",
+   "year": 1930,
+   "by": "Angelo Sacerdote",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "About 70% of the food we eat contains genetically modified ingredients and is not labeled. The biotechnology industry is spending $50 million a year to convince us that this technology is our only hope for feeding the world and saving the environment. Family farmers are disappearing at an astonishing rate as people continue to go hungry both here and abroad. Using hilarious and disturbing archival footage and…",
+   "src": {
+    "archive": "Fed_Up_Genetic_Engineering"
+   },
+   "poster": "https://archive.org/services/img/Fed_Up_Genetic_Engineering",
+   "lic": "Creative Commons (by-nc-nd/3.0/us)"
   },
   {
    "id": "ar-ptp-the-ten-commandments-cecil-b-demille",
@@ -8641,8 +8614,7 @@
     "archive": "ABucketOfBlood1959"
    },
    "poster": "https://archive.org/services/img/ABucketOfBlood1959",
-   "lic": "Domaine public",
-   "isNew": 1
+   "lic": "Domaine public"
   },
   {
    "id": "ar-lastmanonearth-1964",
@@ -9957,6 +9929,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-law-of-the-lash-film",
+   "type": "film",
+   "auto": "archive",
+   "title": "Law of the Lash",
+   "year": 1947,
+   "by": "Inconnu",
+   "genres": [
+    "Western"
+   ],
+   "age": "Tous publics",
+   "min": 52,
+   "art": "western",
+   "pal": [
+    "#c96a2a",
+    "#2a1206",
+    "#ffcf5c"
+   ],
+   "tagline": "",
+   "desc": "A western with Lash La Rue and Al St. John.",
+   "src": {
+    "archive": "Law_of_the_Lash_film"
+   },
+   "poster": "https://archive.org/services/img/Law_of_the_Lash_film",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-fairbanksrobinhood1922",
    "type": "film",
    "auto": "archive",
@@ -9982,32 +9980,6 @@
    },
    "poster": "https://archive.org/services/img/FairbanksRobinHood1922",
    "lic": "Domaine public (œuvre de 1922)"
-  },
-  {
-   "id": "ar-law-of-the-lash-film",
-   "type": "film",
-   "auto": "archive",
-   "title": "Law of the Lash",
-   "year": 1947,
-   "by": "Inconnu",
-   "genres": [
-    "Western"
-   ],
-   "age": "Tous publics",
-   "min": 52,
-   "art": "western",
-   "pal": [
-    "#c96a2a",
-    "#2a1206",
-    "#ffcf5c"
-   ],
-   "tagline": "",
-   "desc": "A western with Lash La Rue and Al St. John.",
-   "src": {
-    "archive": "Law_of_the_Lash_film"
-   },
-   "poster": "https://archive.org/services/img/Law_of_the_Lash_film",
-   "lic": "Domaine public"
   },
   {
    "id": "ar-thiefofbagdad1924",
@@ -10087,8 +10059,7 @@
     "archive": "seductionerotikon1929"
    },
    "poster": "https://archive.org/services/img/seductionerotikon1929",
-   "lic": "Domaine public (œuvre de 1929)",
-   "isNew": 1
+   "lic": "Domaine public (œuvre de 1929)"
   },
   {
    "id": "ar-whistle-stop",
@@ -10307,32 +10278,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-fluegelschlagen",
-   "type": "film",
-   "auto": "archive",
-   "title": "1975 Flügelschlagen (wing flapping)",
-   "year": 1975,
-   "by": "Lutz Mommartz",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "With Margret Gloddek and Ingrid Lutz Der author and his partners. Multiple relationship as a way of life. The entire trilogy: 1976 Flügelschlagen (Wing flapping) Trilogie 1, 16 min 1978 Mehr als Zwei (More than two) Trilogie 2, 16:45 min 1979 Schattenkur (Cure of shadows) Trilogie 3, 15 min",
-   "src": {
-    "archive": "FLUEGELSCHLAGEN"
-   },
-   "poster": "https://archive.org/services/img/FLUEGELSCHLAGEN",
-   "lic": "Creative Commons (by-nc-sa/4.0)"
-  },
-  {
    "id": "ar-revengeofthevirgins",
    "type": "film",
    "auto": "archive",
@@ -10383,6 +10328,32 @@
    },
    "poster": "https://archive.org/services/img/aces_and_eights",
    "lic": "Domaine public"
+  },
+  {
+   "id": "ar-fluegelschlagen",
+   "type": "film",
+   "auto": "archive",
+   "title": "1975 Flügelschlagen (wing flapping)",
+   "year": 1975,
+   "by": "Lutz Mommartz",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "With Margret Gloddek and Ingrid Lutz Der author and his partners. Multiple relationship as a way of life. The entire trilogy: 1976 Flügelschlagen (Wing flapping) Trilogie 1, 16 min 1978 Mehr als Zwei (More than two) Trilogie 2, 16:45 min 1979 Schattenkur (Cure of shadows) Trilogie 3, 15 min",
+   "src": {
+    "archive": "FLUEGELSCHLAGEN"
+   },
+   "poster": "https://archive.org/services/img/FLUEGELSCHLAGEN",
+   "lic": "Creative Commons (by-nc-sa/4.0)"
   },
   {
    "id": "ar-the-mystery-of-mr-wong",
@@ -11606,6 +11577,33 @@
    },
    "poster": "https://archive.org/services/img/YoungLand",
    "lic": "Domaine public"
+  },
+  {
+   "id": "ar-itcanbedoneamigo",
+   "type": "film",
+   "auto": "archive",
+   "title": "It Can Be Done Amigo",
+   "year": 1972,
+   "by": "AtlÃ¡ntida Films",
+   "genres": [
+    "Western"
+   ],
+   "age": "Tous publics",
+   "min": 97,
+   "art": "western",
+   "pal": [
+    "#c96a2a",
+    "#2a1206",
+    "#ffcf5c"
+   ],
+   "tagline": "",
+   "desc": "A drifter with fast fists and a gunfighter- pimp with fast guns help a child to claim his inheritance. - IMDB Description",
+   "src": {
+    "archive": "ItCanBeDoneAmigo"
+   },
+   "poster": "https://archive.org/services/img/ItCanBeDoneAmigo",
+   "lic": "Domaine public",
+   "isNew": 1
   },
   {
    "id": "wd-q1001996",
