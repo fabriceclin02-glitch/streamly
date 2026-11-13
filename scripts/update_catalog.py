@@ -94,7 +94,7 @@ def clean_text(s, n=420):
 
 def clean_title(t):
     t = clean_text(t, 120)
-    t = re.sub(r"\s*[\(\[]\s*(19|20)\d\d\s*[\)\]]\s*$", "", t)
+    t = re.sub(r"\s*[\(\[][^\)\]]*(18|19|20)\d\d[^\)\]]*[\)\]]\s*$", "", t)
     t = re.sub(r"\s*[-_|]\s*(full movie|full film|hd|1080p|720p)\s*$", "", t, flags=re.I)
     return t.strip(" -_") or "Sans titre"
 
@@ -214,7 +214,7 @@ def fetch_archive():
             cols = cols if isinstance(cols, list) else [cols]
             if BLOCKED_COLLECTIONS & {str(c).lower() for c in cols}:
                 continue
-            year = parse_year(d.get("year"), d.get("date"))
+            year = parse_year(d.get("year"), d.get("date"), d.get("title"))
             lic_url = str(d.get("licenseurl") or "")
             if LEGAL_LICENSE.search(lic_url):
                 lic = "Creative Commons (" + lic_url.rstrip("/").split("/licenses/")[-1] + ")" \
@@ -332,8 +332,8 @@ def fetch_ai_wikidata():
     q = """
 SELECT DISTINCT ?film ?filmLabel ?orig ?date ?dirLabel ?desc ?poster WHERE {
   VALUES ?subj { wd:Q11660 wd:Q11012 }
-  ?film wdt:P31 wd:Q11424 ; wdt:P921 ?subj ; wdt:P577 ?date .
-  FILTER(YEAR(?date) >= 1960)
+  ?film wdt:P31 wd:Q11424 ; wdt:P921 ?subj ; wdt:P577 ?date ; wdt:P345 ?imdb ; wikibase:sitelinks ?sl .
+  FILTER(YEAR(?date) >= 1960 && ?sl >= 12)
   OPTIONAL { ?film wdt:P1476 ?orig }
   OPTIONAL { ?film wdt:P57 ?dir }
   OPTIONAL { ?film wdt:P3383 ?poster }
@@ -502,9 +502,11 @@ def fetch_premieres():
     def add(base, det=None):
         it = premiere_entry(base, det)
         key = (norm(it.get("orig") or it["title"]), it["year"])
-        if key in seen_keys or (det and det["id"] in seen_tmdb):
+        tkey = norm(it["title"])
+        if key in seen_keys or tkey in seen_keys or (det and det["id"] in seen_tmdb):
             return
         seen_keys.add(key)
+        seen_keys.add(tkey)
         if det:
             seen_tmdb.add(det["id"])
         items.append(it)
