@@ -196,7 +196,7 @@ def fetch_archive():
     q = ("(collection:(feature_films OR SciFi_Horror OR Film_Noir OR comedy_films OR silent_films)) "
          "AND mediatype:movies AND -collection:(stream_only OR inlibrary OR tvarchive)")
     fields = ["identifier", "title", "year", "date", "description", "subject", "creator",
-              "runtime", "licenseurl", "collection", "downloads"]
+              "runtime", "licenseurl", "collection", "downloads", "format"]
     out, page, seen = [], 1, set()
     while len(out) < MAX_ARCHIVE and page <= 12:
         params = [("q", q), ("rows", "200"), ("page", str(page)), ("output", "json"),
@@ -214,6 +214,9 @@ def fetch_archive():
             cols = cols if isinstance(cols, list) else [cols]
             if BLOCKED_COLLECTIONS & {str(c).lower() for c in cols}:
                 continue
+            fmts = " ".join(d.get("format") or []) if isinstance(d.get("format"), list) else str(d.get("format") or "")
+            if not re.search(r"h\.264|mpeg4|ogg video|webm", fmts, re.I):
+                continue  # pas de vidéo lisible dans un navigateur
             year = parse_year(d.get("year"), d.get("date"), d.get("title"))
             lic_url = str(d.get("licenseurl") or "")
             if LEGAL_LICENSE.search(lic_url):

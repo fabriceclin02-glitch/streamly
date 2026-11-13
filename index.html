@@ -944,7 +944,8 @@ async function resolveSource(t, ep){
   if(PREVIEW) return {sim:true};
   try{
     const r = await fetch(`https://archive.org/metadata/${encodeURIComponent(src.archive)}`); const j = await r.json();
-    const vids = (j.files||[]).filter(f=>/\.mp4$/i.test(f.name));
+    let vids = (j.files||[]).filter(f=>/\.mp4$/i.test(f.name));
+    if(!vids.length) vids = (j.files||[]).filter(f=>/\.(webm|ogv|m4v)$/i.test(f.name));
     const pick = fmt => vids.filter(f=>(f.format||"").toLowerCase().includes(fmt)).sort((a,b)=>a.name.localeCompare(b.name));
     const pool = [pick("h.264"), pick("mpeg4"), vids].find(a=>a.length);
     const f = pool[Math.min(src.index||0, pool.length-1)];
