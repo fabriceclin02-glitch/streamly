@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "titles": [
   {
    "id": "nosferatu",
@@ -2121,6 +2121,33 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-invasionofthebeegirls",
+   "type": "film",
+   "auto": "archive",
+   "title": "Invasion of the Bee girls",
+   "year": 1930,
+   "by": "Inconnu",
+   "genres": [
+    "Science-fiction",
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 80,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "This one's about strange women who love their men to death, literally! Maybe the fact that there's a research facility doing top secret experiments might have something to do with the suspicious deaths.",
+   "src": {
+    "archive": "InvasionOfTheBeeGirls"
+   },
+   "poster": "https://archive.org/services/img/InvasionOfTheBeeGirls",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-lost-world",
    "type": "film",
    "auto": "archive",
@@ -2146,33 +2173,6 @@
     "archive": "lost_world"
    },
    "poster": "https://archive.org/services/img/lost_world",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-invasionofthebeegirls",
-   "type": "film",
-   "auto": "archive",
-   "title": "Invasion of the Bee girls",
-   "year": 1930,
-   "by": "Inconnu",
-   "genres": [
-    "Science-fiction",
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 80,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "This one's about strange women who love their men to death, literally! Maybe the fact that there's a research facility doing top secret experiments might have something to do with the suspicious deaths.",
-   "src": {
-    "archive": "InvasionOfTheBeeGirls"
-   },
-   "poster": "https://archive.org/services/img/InvasionOfTheBeeGirls",
    "lic": "Domaine public"
   },
   {
@@ -3162,6 +3162,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-mommartz-altersporno-1970",
+   "type": "film",
+   "auto": "archive",
+   "title": "1970 Altersporno (Old Age Porn)",
+   "year": 1970,
+   "by": "Lutz Mommartz",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "With Ludwig Chateau. The film is the question to an old sculptor from Düsseldorf whether he was willing to participate in an Old Age Porn. On a search for a cuple for a love story with sex beyond the 70 Herbert Götzinger sent me to his colleagues sculptor Ludwig Chateau. During my surprise visit with the running camera, asking if he would be willing to do his part, he attacked me: \"Is not that enough what they're…",
+   "src": {
+    "archive": "Mommartz_Altersporno_1970"
+   },
+   "poster": "https://archive.org/services/img/Mommartz_Altersporno_1970",
+   "lic": "Creative Commons (by-nc-sa/4.0)"
+  },
+  {
    "id": "ar-hitchcock-secret-agent",
    "type": "film",
    "auto": "archive",
@@ -3213,32 +3239,6 @@
    },
    "poster": "https://archive.org/services/img/OnlytheValaint",
    "lic": "Domaine public"
-  },
-  {
-   "id": "ar-mommartz-altersporno-1970",
-   "type": "film",
-   "auto": "archive",
-   "title": "1970 Altersporno (Old Age Porn)",
-   "year": 1970,
-   "by": "Lutz Mommartz",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "With Ludwig Chateau. The film is the question to an old sculptor from Düsseldorf whether he was willing to participate in an Old Age Porn. On a search for a cuple for a love story with sex beyond the 70 Herbert Götzinger sent me to his colleagues sculptor Ludwig Chateau. During my surprise visit with the running camera, asking if he would be willing to do his part, he attacked me: \"Is not that enough what they're…",
-   "src": {
-    "archive": "Mommartz_Altersporno_1970"
-   },
-   "poster": "https://archive.org/services/img/Mommartz_Altersporno_1970",
-   "lic": "Creative Commons (by-nc-sa/4.0)"
   },
   {
    "id": "ar-cc-1915-12-18-aburlesqueoncarmen",
@@ -4019,32 +4019,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-disorder-in-the-court",
-   "type": "film",
-   "auto": "archive",
-   "title": "Disorder in the Court",
-   "year": 1936,
-   "by": "Jules White",
-   "genres": [
-    "Comédie"
-   ],
-   "age": "Tous publics",
-   "min": 16,
-   "art": "family",
-   "pal": [
-    "#ff7a5c",
-    "#2a0f3d",
-    "#fff35c"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "disorder_in_the_court"
-   },
-   "poster": "https://archive.org/services/img/disorder_in_the_court",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-intolerance",
    "type": "film",
    "auto": "archive",
@@ -4070,6 +4044,32 @@
     "archive": "Intolerance"
    },
    "poster": "https://archive.org/services/img/Intolerance",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-disorder-in-the-court",
+   "type": "film",
+   "auto": "archive",
+   "title": "Disorder in the Court",
+   "year": 1936,
+   "by": "Jules White",
+   "genres": [
+    "Comédie"
+   ],
+   "age": "Tous publics",
+   "min": 16,
+   "art": "family",
+   "pal": [
+    "#ff7a5c",
+    "#2a0f3d",
+    "#fff35c"
+   ],
+   "tagline": "",
+   "desc": "You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "disorder_in_the_court"
+   },
+   "poster": "https://archive.org/services/img/disorder_in_the_court",
    "lic": "Domaine public"
   },
   {
@@ -4982,32 +4982,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-cco-herculesandthecaptivewomen",
-   "type": "film",
-   "auto": "archive",
-   "title": "Hercules and the Captive Women",
-   "year": 1961,
-   "by": "Inconnu",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 94,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "A sleepy Hercules discovers that Queen Atlantis plans to use her superhuman warriors to take over the world. IMDB page",
-   "src": {
-    "archive": "cco__HerculesandtheCaptiveWomen"
-   },
-   "poster": "https://archive.org/services/img/cco__HerculesandtheCaptiveWomen",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-abucketofblood",
    "type": "film",
    "auto": "archive",
@@ -5033,6 +5007,32 @@
     "archive": "ABucketofBlood"
    },
    "poster": "https://archive.org/services/img/ABucketofBlood",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-cco-herculesandthecaptivewomen",
+   "type": "film",
+   "auto": "archive",
+   "title": "Hercules and the Captive Women",
+   "year": 1961,
+   "by": "Inconnu",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 94,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "A sleepy Hercules discovers that Queen Atlantis plans to use her superhuman warriors to take over the world. IMDB page",
+   "src": {
+    "archive": "cco__HerculesandtheCaptiveWomen"
+   },
+   "poster": "https://archive.org/services/img/cco__HerculesandtheCaptiveWomen",
    "lic": "Domaine public"
   },
   {
@@ -5090,32 +5090,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-west-of-the-divide",
-   "type": "film",
-   "auto": "archive",
-   "title": "West of the Divide",
-   "year": 1934,
-   "by": "Inconnu",
-   "genres": [
-    "Western"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "western",
-   "pal": [
-    "#c96a2a",
-    "#2a1206",
-    "#ffcf5c"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "west_of_the_divide"
-   },
-   "poster": "https://archive.org/services/img/west_of_the_divide",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-the-general-buster-keaton",
    "type": "film",
    "auto": "archive",
@@ -5140,6 +5114,32 @@
     "archive": "The_General_Buster_Keaton"
    },
    "poster": "https://archive.org/services/img/The_General_Buster_Keaton",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-west-of-the-divide",
+   "type": "film",
+   "auto": "archive",
+   "title": "West of the Divide",
+   "year": 1934,
+   "by": "Inconnu",
+   "genres": [
+    "Western"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "western",
+   "pal": [
+    "#c96a2a",
+    "#2a1206",
+    "#ffcf5c"
+   ],
+   "tagline": "",
+   "desc": "You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "west_of_the_divide"
+   },
+   "poster": "https://archive.org/services/img/west_of_the_divide",
    "lic": "Domaine public"
   },
   {
@@ -5836,32 +5836,6 @@
    "lic": "Domaine public (œuvre de 1918)"
   },
   {
-   "id": "ar-fed-up-genetic-engineering",
-   "type": "film",
-   "auto": "archive",
-   "title": "Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives",
-   "year": 1930,
-   "by": "Angelo Sacerdote",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "About 70% of the food we eat contains genetically modified ingredients and is not labeled. The biotechnology industry is spending $50 million a year to convince us that this technology is our only hope for feeding the world and saving the environment. Family farmers are disappearing at an astonishing rate as people continue to go hungry both here and abroad. Using hilarious and disturbing archival footage and…",
-   "src": {
-    "archive": "Fed_Up_Genetic_Engineering"
-   },
-   "poster": "https://archive.org/services/img/Fed_Up_Genetic_Engineering",
-   "lic": "Creative Commons (by-nc-nd/3.0/us)"
-  },
-  {
    "id": "ar-cops1922",
    "type": "film",
    "auto": "archive",
@@ -5887,6 +5861,32 @@
    },
    "poster": "https://archive.org/services/img/Cops1922",
    "lic": "Domaine public (œuvre de 1922)"
+  },
+  {
+   "id": "ar-fed-up-genetic-engineering",
+   "type": "film",
+   "auto": "archive",
+   "title": "Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives",
+   "year": 1930,
+   "by": "Angelo Sacerdote",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "About 70% of the food we eat contains genetically modified ingredients and is not labeled. The biotechnology industry is spending $50 million a year to convince us that this technology is our only hope for feeding the world and saving the environment. Family farmers are disappearing at an astonishing rate as people continue to go hungry both here and abroad. Using hilarious and disturbing archival footage and…",
+   "src": {
+    "archive": "Fed_Up_Genetic_Engineering"
+   },
+   "poster": "https://archive.org/services/img/Fed_Up_Genetic_Engineering",
+   "lic": "Creative Commons (by-nc-nd/3.0/us)"
   },
   {
    "id": "ar-ptp-the-ten-commandments-cecil-b-demille",
@@ -6932,6 +6932,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-drillerkilleruncut1979",
+   "type": "film",
+   "auto": "archive",
+   "title": "Driller Killer-Uncut",
+   "year": 1979,
+   "by": "Inconnu",
+   "genres": [
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 80,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "An artist slowly loses his mind as he and his two female friends scrape to pay the bills. The punk band downstairs increasingly agitates him, his art dealer is demanding that he complete his big canvas painting as promised, and he gets into fights with his girlfriends. When the dealer laughs at his canvas he snaps, and begins taking it out on the people responsible for his pain and random transients in the manner…",
+   "src": {
+    "archive": "DrillerKillerUncut1979"
+   },
+   "poster": "https://archive.org/services/img/DrillerKillerUncut1979",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-made-for-each-other-film",
    "type": "film",
    "auto": "archive",
@@ -6957,32 +6983,6 @@
     "archive": "made_for_each_other_film"
    },
    "poster": "https://archive.org/services/img/made_for_each_other_film",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-drillerkilleruncut1979",
-   "type": "film",
-   "auto": "archive",
-   "title": "Driller Killer-Uncut",
-   "year": 1979,
-   "by": "Inconnu",
-   "genres": [
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 80,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "An artist slowly loses his mind as he and his two female friends scrape to pay the bills. The punk band downstairs increasingly agitates him, his art dealer is demanding that he complete his big canvas painting as promised, and he gets into fights with his girlfriends. When the dealer laughs at his canvas he snaps, and begins taking it out on the people responsible for his pain and random transients in the manner…",
-   "src": {
-    "archive": "DrillerKillerUncut1979"
-   },
-   "poster": "https://archive.org/services/img/DrillerKillerUncut1979",
    "lic": "Domaine public"
   },
   {
@@ -8058,6 +8058,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-mesaoflostwomen",
+   "type": "film",
+   "auto": "archive",
+   "title": "Mesa of Lost Women",
+   "year": 1953,
+   "by": "Melvin Gordon, William Perkins",
+   "genres": [
+    "Science-fiction"
+   ],
+   "age": "Tous publics",
+   "min": 67,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "A mad scientist named Aranya (Jackie Coogan) is creating giant spiders and dwarves in his lab on Zarpa Mesa in Mexico",
+   "src": {
+    "archive": "MesaOfLostWomen"
+   },
+   "poster": "https://archive.org/services/img/MesaOfLostWomen",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-big-bluff",
    "type": "film",
    "auto": "archive",
@@ -8083,32 +8109,6 @@
     "archive": "big_bluff"
    },
    "poster": "https://archive.org/services/img/big_bluff",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-mesaoflostwomen",
-   "type": "film",
-   "auto": "archive",
-   "title": "Mesa of Lost Women",
-   "year": 1953,
-   "by": "Melvin Gordon, William Perkins",
-   "genres": [
-    "Science-fiction"
-   ],
-   "age": "Tous publics",
-   "min": 67,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "A mad scientist named Aranya (Jackie Coogan) is creating giant spiders and dwarves in his lab on Zarpa Mesa in Mexico",
-   "src": {
-    "archive": "MesaOfLostWomen"
-   },
-   "poster": "https://archive.org/services/img/MesaOfLostWomen",
    "lic": "Domaine public"
   },
   {
@@ -8461,6 +8461,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-the-sadist",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Sadist",
+   "year": 1963,
+   "by": "L. Steven Snyder",
+   "genres": [
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 92,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "This is believed to be the first feature film based on real life serial killers Charles Starkweather and Caril Fugate. Mainstream Hollywood would not produce films inspired by the pair until a decade after this one. A number of films were inspired by the duo (some very loosely) and included such major examples as Terrence Malick's Badlands (1973) and Oliver Stone's Natural Born Killers (1994)",
+   "src": {
+    "archive": "The_Sadist"
+   },
+   "poster": "https://archive.org/services/img/The_Sadist",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-ateneafilmspublicdomaintheinvincibleglad",
    "type": "film",
    "auto": "archive",
@@ -8510,32 +8536,6 @@
     "archive": "Tonightandeverynight"
    },
    "poster": "https://archive.org/services/img/Tonightandeverynight",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-the-sadist",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Sadist",
-   "year": 1963,
-   "by": "L. Steven Snyder",
-   "genres": [
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 92,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "This is believed to be the first feature film based on real life serial killers Charles Starkweather and Caril Fugate. Mainstream Hollywood would not produce films inspired by the pair until a decade after this one. A number of films were inspired by the duo (some very loosely) and included such major examples as Terrence Malick's Badlands (1973) and Oliver Stone's Natural Born Killers (1994)",
-   "src": {
-    "archive": "The_Sadist"
-   },
-   "poster": "https://archive.org/services/img/The_Sadist",
    "lic": "Domaine public"
   },
   {
@@ -9636,32 +9636,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-thelawlessfrontier1934",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Lawless Frontier",
-   "year": 1934,
-   "by": "Inconnu",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 49,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "John Tobin's (John Wayne) parents are killed by an outlaw. John teams up with Dusty to find the bad guy. Mystic Nights Videos",
-   "src": {
-    "archive": "TheLawlessFrontier1934"
-   },
-   "poster": "https://archive.org/services/img/TheLawlessFrontier1934",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-theterror",
    "type": "film",
    "auto": "archive",
@@ -9686,6 +9660,32 @@
     "archive": "TheTerror"
    },
    "poster": "https://archive.org/services/img/TheTerror",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-thelawlessfrontier1934",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Lawless Frontier",
+   "year": 1934,
+   "by": "Inconnu",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 49,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "John Tobin's (John Wayne) parents are killed by an outlaw. John teams up with Dusty to find the bad guy. Mystic Nights Videos",
+   "src": {
+    "archive": "TheLawlessFrontier1934"
+   },
+   "poster": "https://archive.org/services/img/TheLawlessFrontier1934",
    "lic": "Domaine public"
   },
   {
@@ -20124,7 +20124,7 @@
    "title": "Space Jam : Nouvelle Ère",
    "orig": "Space Jam: A New Legacy",
    "year": 2021,
-   "by": "Spike Brandt",
+   "by": "Malcolm D. Lee",
    "genres": [
     "Science-fiction",
     "IA & robots"
