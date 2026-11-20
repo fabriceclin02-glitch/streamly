@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "titles": [
   {
    "id": "nosferatu",
@@ -2121,6 +2121,33 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-invasionofthebeegirls",
+   "type": "film",
+   "auto": "archive",
+   "title": "Invasion of the Bee girls",
+   "year": 1930,
+   "by": "Inconnu",
+   "genres": [
+    "Science-fiction",
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 80,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "This one's about strange women who love their men to death, literally! Maybe the fact that there's a research facility doing top secret experiments might have something to do with the suspicious deaths.",
+   "src": {
+    "archive": "InvasionOfTheBeeGirls"
+   },
+   "poster": "https://archive.org/services/img/InvasionOfTheBeeGirls",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-lost-world",
    "type": "film",
    "auto": "archive",
@@ -2146,33 +2173,6 @@
     "archive": "lost_world"
    },
    "poster": "https://archive.org/services/img/lost_world",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-invasionofthebeegirls",
-   "type": "film",
-   "auto": "archive",
-   "title": "Invasion of the Bee girls",
-   "year": 1930,
-   "by": "Inconnu",
-   "genres": [
-    "Science-fiction",
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 80,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "This one's about strange women who love their men to death, literally! Maybe the fact that there's a research facility doing top secret experiments might have something to do with the suspicious deaths.",
-   "src": {
-    "archive": "InvasionOfTheBeeGirls"
-   },
-   "poster": "https://archive.org/services/img/InvasionOfTheBeeGirls",
    "lic": "Domaine public"
   },
   {
@@ -3832,6 +3832,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-mommartz-weg-zum-nachbarn-1968",
+   "type": "film",
+   "auto": "archive",
+   "title": "1968 Weg zum Nachbarn (Way to the Neighbour)",
+   "year": 1968,
+   "by": "Lutz Mommartz",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "With Renate Meves and Gerd Hübinger. A woman looks during lovemaking to the viewer. \"Way to the neighbor\" is a ten-minute opus that Lutz Mommartz commented as follows: \"A women communicates with the audience.\" More, in fact, does not happen. The devoted rapture in the face of the actor lets the viewer imagine that this is not a compulsory exercise, but a pleasurable freestyle happening. Lutz Mommartz is the purist…",
+   "src": {
+    "archive": "Mommartz_Weg_zum_Nachbarn_1968"
+   },
+   "poster": "https://archive.org/services/img/Mommartz_Weg_zum_Nachbarn_1968",
+   "lic": "Creative Commons (by-nc-sa/4.0)"
+  },
+  {
    "id": "ar-kilimanjaro",
    "type": "film",
    "auto": "archive",
@@ -3859,32 +3885,6 @@
    },
    "poster": "https://archive.org/services/img/Kilimanjaro",
    "lic": "Domaine public"
-  },
-  {
-   "id": "ar-mommartz-weg-zum-nachbarn-1968",
-   "type": "film",
-   "auto": "archive",
-   "title": "1968 Weg zum Nachbarn (Way to the Neighbour)",
-   "year": 1968,
-   "by": "Lutz Mommartz",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "With Renate Meves and Gerd Hübinger. A woman looks during lovemaking to the viewer. \"Way to the neighbor\" is a ten-minute opus that Lutz Mommartz commented as follows: \"A women communicates with the audience.\" More, in fact, does not happen. The devoted rapture in the face of the actor lets the viewer imagine that this is not a compulsory exercise, but a pleasurable freestyle happening. Lutz Mommartz is the purist…",
-   "src": {
-    "archive": "Mommartz_Weg_zum_Nachbarn_1968"
-   },
-   "poster": "https://archive.org/services/img/Mommartz_Weg_zum_Nachbarn_1968",
-   "lic": "Creative Commons (by-nc-sa/4.0)"
   },
   {
    "id": "ar-behave-yourself-ipod",
@@ -4128,6 +4128,33 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-night-of-the-living-dead-1080p",
+   "type": "film",
+   "auto": "archive",
+   "title": "Night of the Living Dead",
+   "year": 1968,
+   "by": "Russell W. Streiner, Karl Hardman",
+   "genres": [
+    "Science-fiction",
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 95,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "This is the full 1080p Blu-Ray rip (m2ts) of \"Night of the Living Dead\" ( IMDB ) as well as other versions derived from it. The mkv's each have the DTS and AC3 soundtracks with the chapters info included. Please enjoy and let me know if there are problems with any of the files.",
+   "src": {
+    "archive": "Night.Of.The.Living.Dead_1080p"
+   },
+   "poster": "https://archive.org/services/img/Night.Of.The.Living.Dead_1080p",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-doublefeaturehell6grindhouse2",
    "type": "film",
    "auto": "archive",
@@ -4177,33 +4204,6 @@
     "archive": "planet_outlaws_ipod"
    },
    "poster": "https://archive.org/services/img/planet_outlaws_ipod",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-night-of-the-living-dead-1080p",
-   "type": "film",
-   "auto": "archive",
-   "title": "Night of the Living Dead",
-   "year": 1968,
-   "by": "Russell W. Streiner, Karl Hardman",
-   "genres": [
-    "Science-fiction",
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 95,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "This is the full 1080p Blu-Ray rip (m2ts) of \"Night of the Living Dead\" ( IMDB ) as well as other versions derived from it. The mkv's each have the DTS and AC3 soundtracks with the chapters info included. Please enjoy and let me know if there are problems with any of the files.",
-   "src": {
-    "archive": "Night.Of.The.Living.Dead_1080p"
-   },
-   "poster": "https://archive.org/services/img/Night.Of.The.Living.Dead_1080p",
    "lic": "Domaine public"
   },
   {
@@ -4903,32 +4903,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-levoyagedanslalune",
-   "type": "film",
-   "auto": "archive",
-   "title": "Le voyage dans la lune",
-   "year": 1930,
-   "by": "Inconnu",
-   "genres": [
-    "Science-fiction"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "By George Melies, an old 1902 film from france about a small group of scientists that travel to space on a rocket to get to the moon.",
-   "src": {
-    "archive": "Levoyagedanslalune"
-   },
-   "poster": "https://archive.org/services/img/Levoyagedanslalune",
-   "lic": "Creative Commons (by-nc-sa/2.0/fr)"
-  },
-  {
    "id": "ar-dishonored-lady",
    "type": "film",
    "auto": "archive",
@@ -4953,6 +4927,32 @@
    },
    "poster": "https://archive.org/services/img/dishonored_lady",
    "lic": "Domaine public"
+  },
+  {
+   "id": "ar-levoyagedanslalune",
+   "type": "film",
+   "auto": "archive",
+   "title": "Le voyage dans la lune",
+   "year": 1930,
+   "by": "Inconnu",
+   "genres": [
+    "Science-fiction"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "By George Melies, an old 1902 film from france about a small group of scientists that travel to space on a rocket to get to the moon.",
+   "src": {
+    "archive": "Levoyagedanslalune"
+   },
+   "poster": "https://archive.org/services/img/Levoyagedanslalune",
+   "lic": "Creative Commons (by-nc-sa/2.0/fr)"
   },
   {
    "id": "ar-theluckytexan",
@@ -5036,6 +5036,33 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-the-general-buster-keaton",
+   "type": "film",
+   "auto": "archive",
+   "title": "The General (complete & clearer)",
+   "year": 1926,
+   "by": "Inconnu",
+   "genres": [
+    "Muet",
+    "Historique"
+   ],
+   "age": "Tous publics",
+   "min": 78,
+   "art": "expr",
+   "pal": [
+    "#5a3d2a",
+    "#140b06",
+    "#e8c27a"
+   ],
+   "tagline": "",
+   "desc": "A great Buster Keaton silent movie. In 1862, after spies steal his locomotive, \"The General\", he wages a one-man battle to recover it. The copies previously uploaded here were either incomplete or too blurry. I hope that this copy will be more satisfactory.",
+   "src": {
+    "archive": "The_General_Buster_Keaton"
+   },
+   "poster": "https://archive.org/services/img/The_General_Buster_Keaton",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-thephantomcreeps",
    "type": "film",
    "auto": "archive",
@@ -5087,33 +5114,6 @@
     "archive": "EndoftheWorld"
    },
    "poster": "https://archive.org/services/img/EndoftheWorld",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-the-general-buster-keaton",
-   "type": "film",
-   "auto": "archive",
-   "title": "The General (complete & clearer)",
-   "year": 1926,
-   "by": "Inconnu",
-   "genres": [
-    "Muet",
-    "Historique"
-   ],
-   "age": "Tous publics",
-   "min": 78,
-   "art": "expr",
-   "pal": [
-    "#5a3d2a",
-    "#140b06",
-    "#e8c27a"
-   ],
-   "tagline": "",
-   "desc": "A great Buster Keaton silent movie. In 1862, after spies steal his locomotive, \"The General\", he wages a one-man battle to recover it. The copies previously uploaded here were either incomplete or too blurry. I hope that this copy will be more satisfactory.",
-   "src": {
-    "archive": "The_General_Buster_Keaton"
-   },
-   "poster": "https://archive.org/services/img/The_General_Buster_Keaton",
    "lic": "Domaine public"
   },
   {
@@ -5277,32 +5277,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-she-gods-of-shark-reef",
-   "type": "film",
-   "auto": "archive",
-   "title": "She Gods of Shark Reef",
-   "year": 1958,
-   "by": "Inconnu",
-   "genres": [
-    "Aventure"
-   ],
-   "age": "Tous publics",
-   "min": 63,
-   "art": "sea",
-   "pal": [
-    "#1a5c8a",
-    "#03111f",
-    "#7ae0ff"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "she_gods_of_shark_reef"
-   },
-   "poster": "https://archive.org/services/img/she_gods_of_shark_reef",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-nosferatu-dvd-quality",
    "type": "film",
    "auto": "archive",
@@ -5327,6 +5301,32 @@
     "archive": "Nosferatu_DVD_quality"
    },
    "poster": "https://archive.org/services/img/Nosferatu_DVD_quality",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-she-gods-of-shark-reef",
+   "type": "film",
+   "auto": "archive",
+   "title": "She Gods of Shark Reef",
+   "year": 1958,
+   "by": "Inconnu",
+   "genres": [
+    "Aventure"
+   ],
+   "age": "Tous publics",
+   "min": 63,
+   "art": "sea",
+   "pal": [
+    "#1a5c8a",
+    "#03111f",
+    "#7ae0ff"
+   ],
+   "tagline": "",
+   "desc": "You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "she_gods_of_shark_reef"
+   },
+   "poster": "https://archive.org/services/img/she_gods_of_shark_reef",
    "lic": "Domaine public"
   },
   {
@@ -5518,6 +5518,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-houseonbaremountain",
+   "type": "film",
+   "auto": "archive",
+   "title": "The House On Bare Mountain",
+   "year": 1962,
+   "by": "R. Lee Frost",
+   "genres": [
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 80,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "Frank Henenlotter once wrote that nudie cuties were \"undoubtedly the stupidest films on the face of the earth\", and this movie provides ample evidence in support of that, though it is by no means the stupidest nudie cutie ever made. Before reading this description, please understand that any attempt to put the \"plot\" into words makes it more coherent than it actually is. That's just what happens with a movie shot in…",
+   "src": {
+    "archive": "HouseOnBareMountain"
+   },
+   "poster": "https://archive.org/services/img/HouseOnBareMountain",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-ridersofdestiny",
    "type": "film",
    "auto": "archive",
@@ -5542,32 +5568,6 @@
     "archive": "RidersofDestiny_"
    },
    "poster": "https://archive.org/services/img/RidersofDestiny_",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-houseonbaremountain",
-   "type": "film",
-   "auto": "archive",
-   "title": "The House On Bare Mountain",
-   "year": 1962,
-   "by": "R. Lee Frost",
-   "genres": [
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 80,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "Frank Henenlotter once wrote that nudie cuties were \"undoubtedly the stupidest films on the face of the earth\", and this movie provides ample evidence in support of that, though it is by no means the stupidest nudie cutie ever made. Before reading this description, please understand that any attempt to put the \"plot\" into words makes it more coherent than it actually is. That's just what happens with a movie shot in…",
-   "src": {
-    "archive": "HouseOnBareMountain"
-   },
-   "poster": "https://archive.org/services/img/HouseOnBareMountain",
    "lic": "Domaine public"
   },
   {
@@ -8058,32 +8058,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-invasionofthebeegirlswidescreenqualityup",
-   "type": "film",
-   "auto": "archive",
-   "title": "INVASION OF THE BEE GIRLS widescreen & quality upgrade.",
-   "year": 1930,
-   "by": "Fred Weintraub",
-   "genres": [
-    "Science-fiction"
-   ],
-   "age": "Tous publics",
-   "min": 85,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "This is the original widescreen print, which is significantly sharper than the 4:3 print here at IA. According to IMDB this version also is in the public domain. Anyway, how could you not like a movie with dialog like this: \"We balled and we balled and we balled, until he dropped dead.\" Besides, there are many happy endings, and it gives a whole new meaning to, \"What's the buzz?\" Directed by Denis Sanders. Released…",
-   "src": {
-    "archive": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade"
-   },
-   "poster": "https://archive.org/services/img/InvasionOfTheBeeGirlsWidescreenQualityUpgrade",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-big-bluff",
    "type": "film",
    "auto": "archive",
@@ -8109,6 +8083,32 @@
     "archive": "big_bluff"
    },
    "poster": "https://archive.org/services/img/big_bluff",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-invasionofthebeegirlswidescreenqualityup",
+   "type": "film",
+   "auto": "archive",
+   "title": "INVASION OF THE BEE GIRLS widescreen & quality upgrade.",
+   "year": 1930,
+   "by": "Fred Weintraub",
+   "genres": [
+    "Science-fiction"
+   ],
+   "age": "Tous publics",
+   "min": 85,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "This is the original widescreen print, which is significantly sharper than the 4:3 print here at IA. According to IMDB this version also is in the public domain. Anyway, how could you not like a movie with dialog like this: \"We balled and we balled and we balled, until he dropped dead.\" Besides, there are many happy endings, and it gives a whole new meaning to, \"What's the buzz?\" Directed by Denis Sanders. Released…",
+   "src": {
+    "archive": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade"
+   },
+   "poster": "https://archive.org/services/img/InvasionOfTheBeeGirlsWidescreenQualityUpgrade",
    "lic": "Domaine public"
   },
   {
@@ -8435,32 +8435,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-the-sadist",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Sadist",
-   "year": 1963,
-   "by": "L. Steven Snyder",
-   "genres": [
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 92,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "This is believed to be the first feature film based on real life serial killers Charles Starkweather and Caril Fugate. Mainstream Hollywood would not produce films inspired by the pair until a decade after this one. A number of films were inspired by the duo (some very loosely) and included such major examples as Terrence Malick's Badlands (1973) and Oliver Stone's Natural Born Killers (1994)",
-   "src": {
-    "archive": "The_Sadist"
-   },
-   "poster": "https://archive.org/services/img/The_Sadist",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-the-snow-queen-1959-animation",
    "type": "film",
    "auto": "archive",
@@ -8484,6 +8458,32 @@
     "archive": "the_snow_queen_1959_animation"
    },
    "poster": "https://archive.org/services/img/the_snow_queen_1959_animation",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-the-sadist",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Sadist",
+   "year": 1963,
+   "by": "L. Steven Snyder",
+   "genres": [
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 92,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "This is believed to be the first feature film based on real life serial killers Charles Starkweather and Caril Fugate. Mainstream Hollywood would not produce films inspired by the pair until a decade after this one. A number of films were inspired by the duo (some very loosely) and included such major examples as Terrence Malick's Badlands (1973) and Oliver Stone's Natural Born Killers (1994)",
+   "src": {
+    "archive": "The_Sadist"
+   },
+   "poster": "https://archive.org/services/img/The_Sadist",
    "lic": "Domaine public"
   },
   {
@@ -11185,6 +11185,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-here-is-germany",
+   "type": "film",
+   "auto": "archive",
+   "title": "Here is Germany",
+   "year": 1945,
+   "by": "Inconnu",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 50,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "Here is Germany was made to prepare soldiers who had not seen combat to go to Germany for the US occupation after the May 8, 1945 unconditional surrender. The film was, however, never used for its intended purpose. Here is Germany was a 1945 propaganda documentary film directed by Frank Capra. Like its companion film, Know Your Enemy: Japan, the film is a full-length exploration of why one of the two major Axis…",
+   "src": {
+    "archive": "HERE_IS_GERMANY"
+   },
+   "poster": "https://archive.org/services/img/HERE_IS_GERMANY",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-silent-cockeyed-gems-from-the-memory-of-",
    "type": "film",
    "auto": "archive",
@@ -11210,32 +11236,6 @@
    },
    "poster": "https://archive.org/services/img/silent-cockeyed-gems-from-the-memory-of-a-nutty-cameraman",
    "lic": "Domaine public (œuvre de 1925)"
-  },
-  {
-   "id": "ar-here-is-germany",
-   "type": "film",
-   "auto": "archive",
-   "title": "Here is Germany",
-   "year": 1945,
-   "by": "Inconnu",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 50,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "Here is Germany was made to prepare soldiers who had not seen combat to go to Germany for the US occupation after the May 8, 1945 unconditional surrender. The film was, however, never used for its intended purpose. Here is Germany was a 1945 propaganda documentary film directed by Frank Capra. Like its companion film, Know Your Enemy: Japan, the film is a full-length exploration of why one of the two major Axis…",
-   "src": {
-    "archive": "HERE_IS_GERMANY"
-   },
-   "poster": "https://archive.org/services/img/HERE_IS_GERMANY",
-   "lic": "Domaine public"
   },
   {
    "id": "ar-brand-of-the-devil",
@@ -11316,32 +11316,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-phantom-of-chinatown-1940",
-   "type": "film",
-   "auto": "archive",
-   "title": "Phantom of Chinatown",
-   "year": 1940,
-   "by": "Inconnu",
-   "genres": [
-    "Policier"
-   ],
-   "age": "12+",
-   "min": 62,
-   "art": "noir",
-   "pal": [
-    "#2a2a33",
-    "#050508",
-    "#e8e8f0"
-   ],
-   "tagline": "",
-   "desc": "From IMDb : Detective James Lee Wong is on the scene as archeologist Dr. John Benton, recently returned from an expedition in China where a valuable ancient scroll was recovered, is murdered while giving a lecture on the expedition. Stars: Keye Luke, Grant Withers and Lotus Long This movie can also be found at The Internet Archive here and here . The Mr. Wong series of films Mr. Wong, Detective The Mystery of Mr.…",
-   "src": {
-    "archive": "Phantom_of_Chinatown_1940"
-   },
-   "poster": "https://archive.org/services/img/Phantom_of_Chinatown_1940",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-club-paradise",
    "type": "film",
    "auto": "archive",
@@ -11365,6 +11339,32 @@
     "archive": "club_paradise"
    },
    "poster": "https://archive.org/services/img/club_paradise",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-phantom-of-chinatown-1940",
+   "type": "film",
+   "auto": "archive",
+   "title": "Phantom of Chinatown",
+   "year": 1940,
+   "by": "Inconnu",
+   "genres": [
+    "Policier"
+   ],
+   "age": "12+",
+   "min": 62,
+   "art": "noir",
+   "pal": [
+    "#2a2a33",
+    "#050508",
+    "#e8e8f0"
+   ],
+   "tagline": "",
+   "desc": "From IMDb : Detective James Lee Wong is on the scene as archeologist Dr. John Benton, recently returned from an expedition in China where a valuable ancient scroll was recovered, is murdered while giving a lecture on the expedition. Stars: Keye Luke, Grant Withers and Lotus Long This movie can also be found at The Internet Archive here and here . The Mr. Wong series of films Mr. Wong, Detective The Mystery of Mr.…",
+   "src": {
+    "archive": "Phantom_of_Chinatown_1940"
+   },
+   "poster": "https://archive.org/services/img/Phantom_of_Chinatown_1940",
    "lic": "Domaine public"
   },
   {
