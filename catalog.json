@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "titles": [
   {
    "id": "nosferatu",
@@ -1989,32 +1989,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-tarzans-revenge",
-   "type": "film",
-   "auto": "archive",
-   "title": "Tarzan's Revenge",
-   "year": 1938,
-   "by": "Inconnu",
-   "genres": [
-    "Aventure"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "sea",
-   "pal": [
-    "#1a5c8a",
-    "#03111f",
-    "#7ae0ff"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "tarzans_revenge"
-   },
-   "poster": "https://archive.org/services/img/tarzans_revenge",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-mclintok-widescreen",
    "type": "film",
    "auto": "archive",
@@ -2039,6 +2013,32 @@
     "archive": "mclintok_widescreen"
    },
    "poster": "https://archive.org/services/img/mclintok_widescreen",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-tarzans-revenge",
+   "type": "film",
+   "auto": "archive",
+   "title": "Tarzan's Revenge",
+   "year": 1938,
+   "by": "Inconnu",
+   "genres": [
+    "Aventure"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "sea",
+   "pal": [
+    "#1a5c8a",
+    "#03111f",
+    "#7ae0ff"
+   ],
+   "tagline": "",
+   "desc": "You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "tarzans_revenge"
+   },
+   "poster": "https://archive.org/services/img/tarzans_revenge",
    "lic": "Domaine public"
   },
   {
@@ -2176,6 +2176,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-publicmovies212",
+   "type": "film",
+   "auto": "archive",
+   "title": "Public Domain Movies",
+   "year": 1930,
+   "by": "Inconnu",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "this is a lot of public domain movies",
+   "src": {
+    "archive": "publicmovies212"
+   },
+   "poster": "https://archive.org/services/img/publicmovies212",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-grave-of-the-vampire-movie",
    "type": "film",
    "auto": "archive",
@@ -2225,32 +2251,6 @@
     "archive": "Killers_from_space"
    },
    "poster": "https://archive.org/services/img/Killers_from_space",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-publicmovies212",
-   "type": "film",
-   "auto": "archive",
-   "title": "Public Domain Movies",
-   "year": 1930,
-   "by": "Inconnu",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "this is a lot of public domain movies",
-   "src": {
-    "archive": "publicmovies212"
-   },
-   "poster": "https://archive.org/services/img/publicmovies212",
    "lic": "Domaine public"
   },
   {
@@ -2494,32 +2494,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-cyrano-debergerac",
-   "type": "film",
-   "auto": "archive",
-   "title": "Cyrano De Bergerac",
-   "year": 1950,
-   "by": "Stanley Kramer",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 112,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "From: IMDb : France, 1640: Cyrano, the charismatic swordsman-poet with the absurd nose, hopelessly loves the beauteous Roxane; she, in turn, confesses to Cyrano her love for the handsome but tongue-tied Christian. The chivalrous Cyrano sets up with Christian an innocent deception, with tragic results. Much cut from the play, but dialogue not rewritten.",
-   "src": {
-    "archive": "Cyrano_DeBergerac"
-   },
-   "poster": "https://archive.org/services/img/Cyrano_DeBergerac",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-cosmos-war-of-the-planets",
    "type": "film",
    "auto": "archive",
@@ -2544,6 +2518,32 @@
     "archive": "Cosmos_War_of_the_Planets"
    },
    "poster": "https://archive.org/services/img/Cosmos_War_of_the_Planets",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-cyrano-debergerac",
+   "type": "film",
+   "auto": "archive",
+   "title": "Cyrano De Bergerac",
+   "year": 1950,
+   "by": "Stanley Kramer",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 112,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "From: IMDb : France, 1640: Cyrano, the charismatic swordsman-poet with the absurd nose, hopelessly loves the beauteous Roxane; she, in turn, confesses to Cyrano her love for the handsome but tongue-tied Christian. The chivalrous Cyrano sets up with Christian an innocent deception, with tragic results. Much cut from the play, but dialogue not rewritten.",
+   "src": {
+    "archive": "Cyrano_DeBergerac"
+   },
+   "poster": "https://archive.org/services/img/Cyrano_DeBergerac",
    "lic": "Domaine public"
   },
   {
@@ -2573,32 +2573,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-tarzan-and-the-green-goddess",
-   "type": "film",
-   "auto": "archive",
-   "title": "Tarzan and the Green Goddess",
-   "year": 1938,
-   "by": "Inconnu",
-   "genres": [
-    "Aventure"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "sea",
-   "pal": [
-    "#1a5c8a",
-    "#03111f",
-    "#7ae0ff"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "tarzan_and_the_green_goddess"
-   },
-   "poster": "https://archive.org/services/img/tarzan_and_the_green_goddess",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-carnivalofsouls",
    "type": "film",
    "auto": "archive",
@@ -2623,6 +2597,32 @@
     "archive": "CarnivalofSouls"
    },
    "poster": "https://archive.org/services/img/CarnivalofSouls",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-tarzan-and-the-green-goddess",
+   "type": "film",
+   "auto": "archive",
+   "title": "Tarzan and the Green Goddess",
+   "year": 1938,
+   "by": "Inconnu",
+   "genres": [
+    "Aventure"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "sea",
+   "pal": [
+    "#1a5c8a",
+    "#03111f",
+    "#7ae0ff"
+   ],
+   "tagline": "",
+   "desc": "You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "tarzan_and_the_green_goddess"
+   },
+   "poster": "https://archive.org/services/img/tarzan_and_the_green_goddess",
    "lic": "Domaine public"
   },
   {
@@ -2916,6 +2916,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-mommartz-altersporno-1970",
+   "type": "film",
+   "auto": "archive",
+   "title": "1970 Altersporno (Old Age Porn)",
+   "year": 1970,
+   "by": "Lutz Mommartz",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "With Ludwig Chateau. The film is the question to an old sculptor from Düsseldorf whether he was willing to participate in an Old Age Porn. On a search for a cuple for a love story with sex beyond the 70 Herbert Götzinger sent me to his colleagues sculptor Ludwig Chateau. During my surprise visit with the running camera, asking if he would be willing to do his part, he attacked me: \"Is not that enough what they're…",
+   "src": {
+    "archive": "Mommartz_Altersporno_1970"
+   },
+   "poster": "https://archive.org/services/img/Mommartz_Altersporno_1970",
+   "lic": "Creative Commons (by-nc-sa/4.0)"
+  },
+  {
    "id": "ar-iron-mask",
    "type": "film",
    "auto": "archive",
@@ -3135,32 +3161,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-hitchcock-secret-agent",
-   "type": "film",
-   "auto": "archive",
-   "title": "Secret Agent",
-   "year": 1936,
-   "by": "Inconnu",
-   "genres": [
-    "Thriller"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "noir",
-   "pal": [
-    "#2a2a33",
-    "#050508",
-    "#e8e8f0"
-   ],
-   "tagline": "",
-   "desc": "From IMDb : During the first world war, novelist Edgar Brodie is sent to Switzerland by the Intelligence Service. He has to kill a German agent. During the mission he meets a fake general first and then Elsa Carrington who helps him in his duty. Stars: John Gielgud, Peter Lorre, Madeleine Carroll and Robert Young",
-   "src": {
-    "archive": "Hitchcock_Secret_Agent"
-   },
-   "poster": "https://archive.org/services/img/Hitchcock_Secret_Agent",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-santa-fe-trail-movie",
    "type": "film",
    "auto": "archive",
@@ -3185,6 +3185,32 @@
     "archive": "Santa_Fe_Trail_movie"
    },
    "poster": "https://archive.org/services/img/Santa_Fe_Trail_movie",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-hitchcock-secret-agent",
+   "type": "film",
+   "auto": "archive",
+   "title": "Secret Agent",
+   "year": 1936,
+   "by": "Inconnu",
+   "genres": [
+    "Thriller"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "noir",
+   "pal": [
+    "#2a2a33",
+    "#050508",
+    "#e8e8f0"
+   ],
+   "tagline": "",
+   "desc": "From IMDb : During the first world war, novelist Edgar Brodie is sent to Switzerland by the Intelligence Service. He has to kill a German agent. During the mission he meets a fake general first and then Elsa Carrington who helps him in his duty. Stars: John Gielgud, Peter Lorre, Madeleine Carroll and Robert Young",
+   "src": {
+    "archive": "Hitchcock_Secret_Agent"
+   },
+   "poster": "https://archive.org/services/img/Hitchcock_Secret_Agent",
    "lic": "Domaine public"
   },
   {
@@ -3239,32 +3265,6 @@
    },
    "poster": "https://archive.org/services/img/CC_1915_12_18_ABurlesqueOnCarmen",
    "lic": "Domaine public"
-  },
-  {
-   "id": "ar-mommartz-altersporno-1970",
-   "type": "film",
-   "auto": "archive",
-   "title": "1970 Altersporno (Old Age Porn)",
-   "year": 1970,
-   "by": "Lutz Mommartz",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "With Ludwig Chateau. The film is the question to an old sculptor from Düsseldorf whether he was willing to participate in an Old Age Porn. On a search for a cuple for a love story with sex beyond the 70 Herbert Götzinger sent me to his colleagues sculptor Ludwig Chateau. During my surprise visit with the running camera, asking if he would be willing to do his part, he attacked me: \"Is not that enough what they're…",
-   "src": {
-    "archive": "Mommartz_Altersporno_1970"
-   },
-   "poster": "https://archive.org/services/img/Mommartz_Altersporno_1970",
-   "lic": "Creative Commons (by-nc-sa/4.0)"
   },
   {
    "id": "ar-quevivamexico",
@@ -3590,32 +3590,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-nakedmassacre1976",
-   "type": "film",
-   "auto": "archive",
-   "title": "Naked Massacre",
-   "year": 1976,
-   "by": "CineVideo",
-   "genres": [
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 85,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "Loosely based on the notorious Richard Speck murders, this is the grim tale of a disturbed Vietnam vet returning home via Belfast, who invades a house shared by eight nurses and proceeds to terrorize and murder them. - IMDB Description",
-   "src": {
-    "archive": "NakedMassacre1976"
-   },
-   "poster": "https://archive.org/services/img/NakedMassacre1976",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-starwreckinthepirkining",
    "type": "film",
    "auto": "archive",
@@ -3641,6 +3615,32 @@
    },
    "poster": "https://archive.org/services/img/StarWreckInThePirkining",
    "lic": "Creative Commons (by-sa/3.0)"
+  },
+  {
+   "id": "ar-nakedmassacre1976",
+   "type": "film",
+   "auto": "archive",
+   "title": "Naked Massacre",
+   "year": 1976,
+   "by": "CineVideo",
+   "genres": [
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 85,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "Loosely based on the notorious Richard Speck murders, this is the grim tale of a disturbed Vietnam vet returning home via Belfast, who invades a house shared by eight nurses and proceeds to terrorize and murder them. - IMDB Description",
+   "src": {
+    "archive": "NakedMassacre1976"
+   },
+   "poster": "https://archive.org/services/img/NakedMassacre1976",
+   "lic": "Domaine public"
   },
   {
    "id": "ar-cco-swordoflancelot",
@@ -3803,32 +3803,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-mommartz-weg-zum-nachbarn-1968",
-   "type": "film",
-   "auto": "archive",
-   "title": "1968 Weg zum Nachbarn (Way to the Neighbour)",
-   "year": 1968,
-   "by": "Lutz Mommartz",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "With Renate Meves and Gerd Hübinger. A woman looks during lovemaking to the viewer. \"Way to the neighbor\" is a ten-minute opus that Lutz Mommartz commented as follows: \"A women communicates with the audience.\" More, in fact, does not happen. The devoted rapture in the face of the actor lets the viewer imagine that this is not a compulsory exercise, but a pleasurable freestyle happening. Lutz Mommartz is the purist…",
-   "src": {
-    "archive": "Mommartz_Weg_zum_Nachbarn_1968"
-   },
-   "poster": "https://archive.org/services/img/Mommartz_Weg_zum_Nachbarn_1968",
-   "lic": "Creative Commons (by-nc-sa/4.0)"
-  },
-  {
    "id": "ar-bloodonthesun",
    "type": "film",
    "auto": "archive",
@@ -3856,6 +3830,32 @@
    },
    "poster": "https://archive.org/services/img/BloodontheSun",
    "lic": "Domaine public"
+  },
+  {
+   "id": "ar-mommartz-weg-zum-nachbarn-1968",
+   "type": "film",
+   "auto": "archive",
+   "title": "1968 Weg zum Nachbarn (Way to the Neighbour)",
+   "year": 1968,
+   "by": "Lutz Mommartz",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "With Renate Meves and Gerd Hübinger. A woman looks during lovemaking to the viewer. \"Way to the neighbor\" is a ten-minute opus that Lutz Mommartz commented as follows: \"A women communicates with the audience.\" More, in fact, does not happen. The devoted rapture in the face of the actor lets the viewer imagine that this is not a compulsory exercise, but a pleasurable freestyle happening. Lutz Mommartz is the purist…",
+   "src": {
+    "archive": "Mommartz_Weg_zum_Nachbarn_1968"
+   },
+   "poster": "https://archive.org/services/img/Mommartz_Weg_zum_Nachbarn_1968",
+   "lic": "Creative Commons (by-nc-sa/4.0)"
   },
   {
    "id": "ar-kilimanjaro",
@@ -4073,6 +4073,33 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-night-of-the-living-dead-1080p",
+   "type": "film",
+   "auto": "archive",
+   "title": "Night of the Living Dead",
+   "year": 1968,
+   "by": "Russell W. Streiner, Karl Hardman",
+   "genres": [
+    "Science-fiction",
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 95,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "This is the full 1080p Blu-Ray rip (m2ts) of \"Night of the Living Dead\" ( IMDB ) as well as other versions derived from it. The mkv's each have the DTS and AC3 soundtracks with the chapters info included. Please enjoy and let me know if there are problems with any of the files.",
+   "src": {
+    "archive": "Night.Of.The.Living.Dead_1080p"
+   },
+   "poster": "https://archive.org/services/img/Night.Of.The.Living.Dead_1080p",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-beauideal",
    "type": "film",
    "auto": "archive",
@@ -4098,33 +4125,6 @@
     "archive": "BeauIdeal"
    },
    "poster": "https://archive.org/services/img/BeauIdeal",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-night-of-the-living-dead-1080p",
-   "type": "film",
-   "auto": "archive",
-   "title": "Night of the Living Dead",
-   "year": 1968,
-   "by": "Russell W. Streiner, Karl Hardman",
-   "genres": [
-    "Science-fiction",
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 95,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "This is the full 1080p Blu-Ray rip (m2ts) of \"Night of the Living Dead\" ( IMDB ) as well as other versions derived from it. The mkv's each have the DTS and AC3 soundtracks with the chapters info included. Please enjoy and let me know if there are problems with any of the files.",
-   "src": {
-    "archive": "Night.Of.The.Living.Dead_1080p"
-   },
-   "poster": "https://archive.org/services/img/Night.Of.The.Living.Dead_1080p",
    "lic": "Domaine public"
   },
   {
@@ -4663,33 +4663,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-waroftherobots",
-   "type": "film",
-   "auto": "archive",
-   "title": "War of the Robots",
-   "year": 1930,
-   "by": "Al Bradley",
-   "genres": [
-    "Science-fiction",
-    "Historique"
-   ],
-   "age": "Tous publics",
-   "min": 100,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "From the makers of \"Cosmos: War of the Planets\" and \"Star Odyssey\" comes another craptastic Italian Star Wars ripoff!",
-   "src": {
-    "archive": "WarOfTheRobots"
-   },
-   "poster": "https://archive.org/services/img/WarOfTheRobots",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-cco-jackandthebeanstalk",
    "type": "film",
    "auto": "archive",
@@ -4714,6 +4687,33 @@
     "archive": "cco_jackandthebeanstalk"
    },
    "poster": "https://archive.org/services/img/cco_jackandthebeanstalk",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-waroftherobots",
+   "type": "film",
+   "auto": "archive",
+   "title": "War of the Robots",
+   "year": 1930,
+   "by": "Al Bradley",
+   "genres": [
+    "Science-fiction",
+    "Historique"
+   ],
+   "age": "Tous publics",
+   "min": 100,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "From the makers of \"Cosmos: War of the Planets\" and \"Star Odyssey\" comes another craptastic Italian Star Wars ripoff!",
+   "src": {
+    "archive": "WarOfTheRobots"
+   },
+   "poster": "https://archive.org/services/img/WarOfTheRobots",
    "lic": "Domaine public"
   },
   {
@@ -5063,6 +5063,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-thephantomcreeps",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Phantom Creeps",
+   "year": 1939,
+   "by": "Henry MacRae",
+   "genres": [
+    "Science-fiction"
+   ],
+   "age": "Tous publics",
+   "min": 78,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "The Phantom Creeps is everything an old classic B sci-fi is supposed to be. It features Bela Lugosi (as Dr. Zorka), a mad megalomaniac genius with a utility belt and a sack of gadgets that would make Batman and James Bond blush, against a team of CIA-types, a reporter, and local law enforcement. Lugosi hams up a storm and really seems to enjoy himself in this immensely silly role. His somewhat untrustworthy and dull…",
+   "src": {
+    "archive": "ThePhantomCreeps"
+   },
+   "poster": "https://archive.org/services/img/ThePhantomCreeps",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-endoftheworld",
    "type": "film",
    "auto": "archive",
@@ -5088,32 +5114,6 @@
     "archive": "EndoftheWorld"
    },
    "poster": "https://archive.org/services/img/EndoftheWorld",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-thephantomcreeps",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Phantom Creeps",
-   "year": 1939,
-   "by": "Henry MacRae",
-   "genres": [
-    "Science-fiction"
-   ],
-   "age": "Tous publics",
-   "min": 78,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "The Phantom Creeps is everything an old classic B sci-fi is supposed to be. It features Bela Lugosi (as Dr. Zorka), a mad megalomaniac genius with a utility belt and a sack of gadgets that would make Batman and James Bond blush, against a team of CIA-types, a reporter, and local law enforcement. Lugosi hams up a storm and really seems to enjoy himself in this immensely silly role. His somewhat untrustworthy and dull…",
-   "src": {
-    "archive": "ThePhantomCreeps"
-   },
-   "poster": "https://archive.org/services/img/ThePhantomCreeps",
    "lic": "Domaine public"
   },
   {
@@ -5598,33 +5598,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-theghosttrain",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Ghost Train",
-   "year": 1941,
-   "by": "Edward Black",
-   "genres": [
-    "Horreur",
-    "Comédie"
-   ],
-   "age": "12+",
-   "min": 85,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "Mismatched travellers are stranded overnight at a lonely rural railway station. They soon learn of local superstition about a phantom train which is said to travel these parts at dead of night, carrying ghosts from a long-ago train wreck in the area. The travelers eventually get to the bottom of the things that go bump in the night. In between the scary bits, comedian Arthur Askey plays the gags with his Vaudeville…",
-   "src": {
-    "archive": "TheGhostTrain"
-   },
-   "poster": "https://archive.org/services/img/TheGhostTrain",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-paradisecanyon",
    "type": "film",
    "auto": "archive",
@@ -5649,6 +5622,33 @@
     "archive": "ParadiseCanyon"
    },
    "poster": "https://archive.org/services/img/ParadiseCanyon",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-theghosttrain",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Ghost Train",
+   "year": 1941,
+   "by": "Edward Black",
+   "genres": [
+    "Horreur",
+    "Comédie"
+   ],
+   "age": "12+",
+   "min": 85,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "Mismatched travellers are stranded overnight at a lonely rural railway station. They soon learn of local superstition about a phantom train which is said to travel these parts at dead of night, carrying ghosts from a long-ago train wreck in the area. The travelers eventually get to the bottom of the things that go bump in the night. In between the scary bits, comedian Arthur Askey plays the gags with his Vaudeville…",
+   "src": {
+    "archive": "TheGhostTrain"
+   },
+   "poster": "https://archive.org/services/img/TheGhostTrain",
    "lic": "Domaine public"
   },
   {
@@ -6215,32 +6215,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-oliver-twist",
-   "type": "film",
-   "auto": "archive",
-   "title": "Oliver Twist",
-   "year": 1933,
-   "by": "I.E. Chadwick",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 70,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "oliver_twist"
-   },
-   "poster": "https://archive.org/services/img/oliver_twist",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-in-which-we-serve",
    "type": "film",
    "auto": "archive",
@@ -6265,6 +6239,32 @@
     "archive": "In_Which_We_Serve"
    },
    "poster": "https://archive.org/services/img/In_Which_We_Serve",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-oliver-twist",
+   "type": "film",
+   "auto": "archive",
+   "title": "Oliver Twist",
+   "year": 1933,
+   "by": "I.E. Chadwick",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 70,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "oliver_twist"
+   },
+   "poster": "https://archive.org/services/img/oliver_twist",
    "lic": "Domaine public"
   },
   {
@@ -6376,32 +6376,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-theromanorgy",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Roman Orgy",
-   "year": 1930,
-   "by": "Inconnu",
-   "genres": [
-    "Muet"
-   ],
-   "age": "Tous publics",
-   "min": 8,
-   "art": "expr",
-   "pal": [
-    "#5a3d2a",
-    "#140b06",
-    "#e8c27a"
-   ],
-   "tagline": "",
-   "desc": "A short film made in Paris by Louis Feuillade in 1911. It shows the wicked life style and assassination of a Roman Emperor. In the first scene he is with a bevy of girls, in the second with a bevy of boys and in the third, we bring in the lions. Try to count the extras in this film, all playing individual roles,and then there were the lions. Enjoy.",
-   "src": {
-    "archive": "TheRomanOrgy"
-   },
-   "poster": "https://archive.org/services/img/TheRomanOrgy",
-   "lic": "Creative Commons (by/3.0)"
-  },
-  {
    "id": "ar-beneath-the-12-mile-reef",
    "type": "film",
    "auto": "archive",
@@ -6426,6 +6400,32 @@
    },
    "poster": "https://archive.org/services/img/beneath_the_12-mile_reef",
    "lic": "Domaine public"
+  },
+  {
+   "id": "ar-theromanorgy",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Roman Orgy",
+   "year": 1930,
+   "by": "Inconnu",
+   "genres": [
+    "Muet"
+   ],
+   "age": "Tous publics",
+   "min": 8,
+   "art": "expr",
+   "pal": [
+    "#5a3d2a",
+    "#140b06",
+    "#e8c27a"
+   ],
+   "tagline": "",
+   "desc": "A short film made in Paris by Louis Feuillade in 1911. It shows the wicked life style and assassination of a Roman Emperor. In the first scene he is with a bevy of girls, in the second with a bevy of boys and in the third, we bring in the lions. Try to count the extras in this film, all playing individual roles,and then there were the lions. Enjoy.",
+   "src": {
+    "archive": "TheRomanOrgy"
+   },
+   "poster": "https://archive.org/services/img/TheRomanOrgy",
+   "lic": "Creative Commons (by/3.0)"
   },
   {
    "id": "ar-mushandmilk",
@@ -6507,33 +6507,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-rhythm-blues-review",
-   "type": "film",
-   "auto": "archive",
-   "title": "Rhythm and Blues Revue",
-   "year": 1955,
-   "by": "Ben Frye",
-   "genres": [
-    "Comédie",
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 71,
-   "art": "family",
-   "pal": [
-    "#ff7a5c",
-    "#2a0f3d",
-    "#fff35c"
-   ],
-   "tagline": "",
-   "desc": "Musical variety show filmed at the Apollo Theatre in Harlem, New York City featuring a cast of popular African-American performers: Willie Bryant, Freddie Robinson, Lionel Hampton, Count Basie, Faye Adams, Bill Bailey, Herb Jeffries, Amos Milburn, Sarah Vaughan, Nipsey Russell, Big Joe Turner, Martha Davis, Little Buck, Nat 'King' Cole, Mantan Moreland, Cab Calloway and Ruth Brown. You can find more information…",
-   "src": {
-    "archive": "rhythm_blues_review"
-   },
-   "poster": "https://archive.org/services/img/rhythm_blues_review",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-we-dive-at-dawn-1943",
    "type": "film",
    "auto": "archive",
@@ -6560,83 +6533,30 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-hercules-and-the-tyrants-of-babylon",
+   "id": "ar-rhythm-blues-review",
    "type": "film",
    "auto": "archive",
-   "title": "Hercules and the Tyrants of Babylon",
-   "year": 1964,
-   "by": "Nino Misiano",
+   "title": "Rhythm and Blues Revue",
+   "year": 1955,
+   "by": "Ben Frye",
    "genres": [
+    "Comédie",
     "Drame"
    ],
    "age": "Tous publics",
-   "min": 85,
-   "art": "drama",
+   "min": 71,
+   "art": "family",
    "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
+    "#ff7a5c",
+    "#2a0f3d",
+    "#fff35c"
    ],
    "tagline": "",
-   "desc": "After a three-year absence, Hercules returns to find his home conquered by the Babylonian empire and his queen enslaved. He must free her before the three rulers of Babylon find her and use her to their own evil purposes. You can find out more about this movie on it's IMDB page .",
+   "desc": "Musical variety show filmed at the Apollo Theatre in Harlem, New York City featuring a cast of popular African-American performers: Willie Bryant, Freddie Robinson, Lionel Hampton, Count Basie, Faye Adams, Bill Bailey, Herb Jeffries, Amos Milburn, Sarah Vaughan, Nipsey Russell, Big Joe Turner, Martha Davis, Little Buck, Nat 'King' Cole, Mantan Moreland, Cab Calloway and Ruth Brown. You can find more information…",
    "src": {
-    "archive": "Hercules_and_the_Tyrants_of_Babylon"
+    "archive": "rhythm_blues_review"
    },
-   "poster": "https://archive.org/services/img/Hercules_and_the_Tyrants_of_Babylon",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-rogues-tavern",
-   "type": "film",
-   "auto": "archive",
-   "title": "Rogue's Tavern",
-   "year": 1936,
-   "by": "Inconnu",
-   "genres": [
-    "Horreur",
-    "Policier"
-   ],
-   "age": "12+",
-   "min": 80,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "rogues_tavern"
-   },
-   "poster": "https://archive.org/services/img/rogues_tavern",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-sabotage-1936",
-   "type": "film",
-   "auto": "archive",
-   "title": "Sabotage",
-   "year": 1936,
-   "by": "Ivor Montagu and Michael Balcon",
-   "genres": [
-    "Policier",
-    "Thriller"
-   ],
-   "age": "12+",
-   "min": 80,
-   "art": "noir",
-   "pal": [
-    "#2a2a33",
-    "#050508",
-    "#e8e8f0"
-   ],
-   "tagline": "",
-   "desc": "From IMDb : Mr. Verloc, a cinema owner, is part of a gang of saboteurs in London. He lives with his wife, Winnie, and her young brother, Stevie. They know nothing about Verloc's secret. Scotland Yard assigns an undercover detective, Ted, to work in a shop near the cinema and investigate the man. The head of the gang assigns Verloc to put a bomb in the metro. The man sends Stevie there with the \"bag\". Stars: Sylvia…",
-   "src": {
-    "archive": "Sabotage_1936"
-   },
-   "poster": "https://archive.org/services/img/Sabotage_1936",
+   "poster": "https://archive.org/services/img/rhythm_blues_review",
    "lic": "Domaine public"
   },
   {
@@ -6668,6 +6588,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-hercules-and-the-tyrants-of-babylon",
+   "type": "film",
+   "auto": "archive",
+   "title": "Hercules and the Tyrants of Babylon",
+   "year": 1964,
+   "by": "Nino Misiano",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 85,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "After a three-year absence, Hercules returns to find his home conquered by the Babylonian empire and his queen enslaved. He must free her before the three rulers of Babylon find her and use her to their own evil purposes. You can find out more about this movie on it's IMDB page .",
+   "src": {
+    "archive": "Hercules_and_the_Tyrants_of_Babylon"
+   },
+   "poster": "https://archive.org/services/img/Hercules_and_the_Tyrants_of_Babylon",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-thewildwomenofwongovideoqualityupgrade",
    "type": "film",
    "auto": "archive",
@@ -6692,6 +6638,60 @@
     "archive": "TheWildWomenOfWongoVideoQualityUpgrade"
    },
    "poster": "https://archive.org/services/img/TheWildWomenOfWongoVideoQualityUpgrade",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-sabotage-1936",
+   "type": "film",
+   "auto": "archive",
+   "title": "Sabotage",
+   "year": 1936,
+   "by": "Ivor Montagu and Michael Balcon",
+   "genres": [
+    "Policier",
+    "Thriller"
+   ],
+   "age": "12+",
+   "min": 80,
+   "art": "noir",
+   "pal": [
+    "#2a2a33",
+    "#050508",
+    "#e8e8f0"
+   ],
+   "tagline": "",
+   "desc": "From IMDb : Mr. Verloc, a cinema owner, is part of a gang of saboteurs in London. He lives with his wife, Winnie, and her young brother, Stevie. They know nothing about Verloc's secret. Scotland Yard assigns an undercover detective, Ted, to work in a shop near the cinema and investigate the man. The head of the gang assigns Verloc to put a bomb in the metro. The man sends Stevie there with the \"bag\". Stars: Sylvia…",
+   "src": {
+    "archive": "Sabotage_1936"
+   },
+   "poster": "https://archive.org/services/img/Sabotage_1936",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-rogues-tavern",
+   "type": "film",
+   "auto": "archive",
+   "title": "Rogue's Tavern",
+   "year": 1936,
+   "by": "Inconnu",
+   "genres": [
+    "Horreur",
+    "Policier"
+   ],
+   "age": "12+",
+   "min": 80,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "rogues_tavern"
+   },
+   "poster": "https://archive.org/services/img/rogues_tavern",
    "lic": "Domaine public"
   },
   {
@@ -6747,31 +6747,29 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-last-of-the-mohicans-1920",
+   "id": "ar-till-the-clouds-roll-by",
    "type": "film",
    "auto": "archive",
-   "title": "Last of the Mohicans",
-   "year": 1920,
-   "by": "Maurice Tourneur",
+   "title": "Till The Clouds Roll By",
+   "year": 1946,
+   "by": "Arthur Freed",
    "genres": [
-    "Muet",
-    "Aventure",
     "Drame"
    ],
    "age": "Tous publics",
-   "min": 71,
-   "art": "expr",
+   "min": 135,
+   "art": "drama",
    "pal": [
-    "#5a3d2a",
-    "#140b06",
-    "#e8c27a"
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
    ],
    "tagline": "",
-   "desc": "First film adaptation from the James Fenimore Cooper novel of the same name. This film also features one of Boris Karloff's earliest film appearances in a small uncredited role as a Native American.",
+   "desc": "Musical biopic on the career of pioneering Hollywood composer Jerome Kern. Starring June Allyson, Robert Walker, Lucille Bremer, Judy Garland, Lena Horne, Frank Sinatra",
    "src": {
-    "archive": "last_of_the_mohicans_1920"
+    "archive": "till_the_clouds_roll_by"
    },
-   "poster": "https://archive.org/services/img/last_of_the_mohicans_1920",
+   "poster": "https://archive.org/services/img/till_the_clouds_roll_by",
    "lic": "Domaine public"
   },
   {
@@ -6801,29 +6799,31 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-till-the-clouds-roll-by",
+   "id": "ar-last-of-the-mohicans-1920",
    "type": "film",
    "auto": "archive",
-   "title": "Till The Clouds Roll By",
-   "year": 1946,
-   "by": "Arthur Freed",
+   "title": "Last of the Mohicans",
+   "year": 1920,
+   "by": "Maurice Tourneur",
    "genres": [
+    "Muet",
+    "Aventure",
     "Drame"
    ],
    "age": "Tous publics",
-   "min": 135,
-   "art": "drama",
+   "min": 71,
+   "art": "expr",
    "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
+    "#5a3d2a",
+    "#140b06",
+    "#e8c27a"
    ],
    "tagline": "",
-   "desc": "Musical biopic on the career of pioneering Hollywood composer Jerome Kern. Starring June Allyson, Robert Walker, Lucille Bremer, Judy Garland, Lena Horne, Frank Sinatra",
+   "desc": "First film adaptation from the James Fenimore Cooper novel of the same name. This film also features one of Boris Karloff's earliest film appearances in a small uncredited role as a Native American.",
    "src": {
-    "archive": "till_the_clouds_roll_by"
+    "archive": "last_of_the_mohicans_1920"
    },
-   "poster": "https://archive.org/services/img/till_the_clouds_roll_by",
+   "poster": "https://archive.org/services/img/last_of_the_mohicans_1920",
    "lic": "Domaine public"
   },
   {
@@ -7092,6 +7092,35 @@
    "lic": "Domaine public (œuvre de 1906)"
   },
   {
+   "id": "ar-howawfulaboutallan",
+   "type": "film",
+   "auto": "archive",
+   "title": "How Awful About Allan",
+   "year": 1970,
+   "by": "George Edwards, Aaron Spelling",
+   "genres": [
+    "Horreur",
+    "Policier",
+    "Thriller",
+    "Drame"
+   ],
+   "age": "12+",
+   "min": 73,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "Allan (Anthony Perkins) is blamed for an accidental fire that killed his father (Kent Smith), disfigured his sister (Julie Harris) and landed him in an institution. Eight months later, partially blind and guilt-stricken, he's let out of an institution and rents a room from his estranged sibling in an effort to put his life back together, but someone is out for revenge and wants to drive him crazy.",
+   "src": {
+    "archive": "HowAwfulAboutAllan"
+   },
+   "poster": "https://archive.org/services/img/HowAwfulAboutAllan",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-themanfromutah",
    "type": "film",
    "auto": "archive",
@@ -7144,35 +7173,6 @@
     "archive": "BlondeIce1948"
    },
    "poster": "https://archive.org/services/img/BlondeIce1948",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-howawfulaboutallan",
-   "type": "film",
-   "auto": "archive",
-   "title": "How Awful About Allan",
-   "year": 1970,
-   "by": "George Edwards, Aaron Spelling",
-   "genres": [
-    "Horreur",
-    "Policier",
-    "Thriller",
-    "Drame"
-   ],
-   "age": "12+",
-   "min": 73,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "Allan (Anthony Perkins) is blamed for an accidental fire that killed his father (Kent Smith), disfigured his sister (Julie Harris) and landed him in an institution. Eight months later, partially blind and guilt-stricken, he's let out of an institution and rents a room from his estranged sibling in an effort to put his life back together, but someone is out for revenge and wants to drive him crazy.",
-   "src": {
-    "archive": "HowAwfulAboutAllan"
-   },
-   "poster": "https://archive.org/services/img/HowAwfulAboutAllan",
    "lic": "Domaine public"
   },
   {
@@ -7280,32 +7280,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-dick-tracy-detctive",
-   "type": "film",
-   "auto": "archive",
-   "title": "Dick Tracy Detective",
-   "year": 1945,
-   "by": "Inconnu",
-   "genres": [
-    "Policier"
-   ],
-   "age": "12+",
-   "min": 61,
-   "art": "noir",
-   "pal": [
-    "#2a2a33",
-    "#050508",
-    "#e8e8f0"
-   ],
-   "tagline": "",
-   "desc": "Dick must stop the mysterious killings of various people with no obvious connection.",
-   "src": {
-    "archive": "dick_tracy_detctive"
-   },
-   "poster": "https://archive.org/services/img/dick_tracy_detctive",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-thewizardofoz1925",
    "type": "film",
    "auto": "archive",
@@ -7330,6 +7304,32 @@
     "archive": "TheWizardOfOz1925"
    },
    "poster": "https://archive.org/services/img/TheWizardOfOz1925",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-dick-tracy-detctive",
+   "type": "film",
+   "auto": "archive",
+   "title": "Dick Tracy Detective",
+   "year": 1945,
+   "by": "Inconnu",
+   "genres": [
+    "Policier"
+   ],
+   "age": "12+",
+   "min": 61,
+   "art": "noir",
+   "pal": [
+    "#2a2a33",
+    "#050508",
+    "#e8e8f0"
+   ],
+   "tagline": "",
+   "desc": "Dick must stop the mysterious killings of various people with no obvious connection.",
+   "src": {
+    "archive": "dick_tracy_detctive"
+   },
+   "poster": "https://archive.org/services/img/dick_tracy_detctive",
    "lic": "Domaine public"
   },
   {
@@ -7600,6 +7600,32 @@
    "lic": "Creative Commons (by-nc-nd/2.5)"
   },
   {
+   "id": "ar-the-wasp-women",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Wasp Woman",
+   "year": 1960,
+   "by": "Roger Corman",
+   "genres": [
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 73,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "A beautiful woman by day - a lusting queen wasp by night. You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "The_Wasp_Women"
+   },
+   "poster": "https://archive.org/services/img/The_Wasp_Women",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-phantom-ship",
    "type": "film",
    "auto": "archive",
@@ -7655,29 +7681,29 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-the-wasp-women",
+   "id": "ar-virusfukkatsunohi1980",
    "type": "film",
    "auto": "archive",
-   "title": "The Wasp Woman",
-   "year": 1960,
-   "by": "Roger Corman",
+   "title": "Virus (Fukkatsu no hi 復活の日)",
+   "year": 1980,
+   "by": "Toho",
    "genres": [
-    "Horreur"
+    "Drame"
    ],
-   "age": "12+",
-   "min": 73,
-   "art": "horror",
+   "age": "Tous publics",
+   "min": 156,
+   "art": "drama",
    "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
    ],
    "tagline": "",
-   "desc": "A beautiful woman by day - a lusting queen wasp by night. You can find more information regarding this film on its IMDb page .",
+   "desc": "Virus (Fukkatsu no hi 復活の日), literally Day of Resurrection is a 1980 post-apocalyptic science fiction movie directed by Kinji Fukasaku and based on a novel written by Sakyo Komatsu. The movie starred Masao Kusakari, George Kennedy, Robert Vaughn, Chuck Connors, Olivia Hussey, Edward James Olmos, Ken Ogata, Sonny Chiba and Glenn Ford. The film is notable for being the most expensive Japanese film ever made at the…",
    "src": {
-    "archive": "The_Wasp_Women"
+    "archive": "VirusFukkatsuNoHi1980"
    },
-   "poster": "https://archive.org/services/img/The_Wasp_Women",
+   "poster": "https://archive.org/services/img/VirusFukkatsuNoHi1980",
    "lic": "Domaine public"
   },
   {
@@ -7708,29 +7734,29 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-virusfukkatsunohi1980",
+   "id": "ar-thechase",
    "type": "film",
    "auto": "archive",
-   "title": "Virus (Fukkatsu no hi 復活の日)",
-   "year": 1980,
-   "by": "Toho",
+   "title": "The Chase",
+   "year": 1946,
+   "by": "Seymour Nebenzal, Eugene Frenke",
    "genres": [
-    "Drame"
+    "Policier"
    ],
-   "age": "Tous publics",
-   "min": 156,
-   "art": "drama",
+   "age": "12+",
+   "min": 86,
+   "art": "noir",
    "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
+    "#2a2a33",
+    "#050508",
+    "#e8e8f0"
    ],
    "tagline": "",
-   "desc": "Virus (Fukkatsu no hi 復活の日), literally Day of Resurrection is a 1980 post-apocalyptic science fiction movie directed by Kinji Fukasaku and based on a novel written by Sakyo Komatsu. The movie starred Masao Kusakari, George Kennedy, Robert Vaughn, Chuck Connors, Olivia Hussey, Edward James Olmos, Ken Ogata, Sonny Chiba and Glenn Ford. The film is notable for being the most expensive Japanese film ever made at the…",
+   "desc": "Returning a lost wallet gains unemployed veteran Chuck Scott (Robert Cummings) a job as chauffeur to Eddie Roman (Steve Cochran), a seeming gangster whose enemies have a way of meeting violent ends. The job proves nerve-wracking, and soon Chuck finds himself pledged to help Eddie's lovely, fearful, prisoner-wife Lorna (Michèle Morgan) to escape. The result leaves Chuck caught like a rat in a trap, vainly seeking a…",
    "src": {
-    "archive": "VirusFukkatsuNoHi1980"
+    "archive": "TheChase_"
    },
-   "poster": "https://archive.org/services/img/VirusFukkatsuNoHi1980",
+   "poster": "https://archive.org/services/img/TheChase_",
    "lic": "Domaine public"
   },
   {
@@ -7757,32 +7783,6 @@
     "archive": "raiders_of_old_california_ipod"
    },
    "poster": "https://archive.org/services/img/raiders_of_old_california_ipod",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-thechase",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Chase",
-   "year": 1946,
-   "by": "Seymour Nebenzal, Eugene Frenke",
-   "genres": [
-    "Policier"
-   ],
-   "age": "12+",
-   "min": 86,
-   "art": "noir",
-   "pal": [
-    "#2a2a33",
-    "#050508",
-    "#e8e8f0"
-   ],
-   "tagline": "",
-   "desc": "Returning a lost wallet gains unemployed veteran Chuck Scott (Robert Cummings) a job as chauffeur to Eddie Roman (Steve Cochran), a seeming gangster whose enemies have a way of meeting violent ends. The job proves nerve-wracking, and soon Chuck finds himself pledged to help Eddie's lovely, fearful, prisoner-wife Lorna (Michèle Morgan) to escape. The result leaves Chuck caught like a rat in a trap, vainly seeking a…",
-   "src": {
-    "archive": "TheChase_"
-   },
-   "poster": "https://archive.org/services/img/TheChase_",
    "lic": "Domaine public"
   },
   {
@@ -7814,6 +7814,33 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-kansascityconfidencial",
+   "type": "film",
+   "auto": "archive",
+   "title": "Kansas City Confidential",
+   "year": 1952,
+   "by": "Edward Small",
+   "genres": [
+    "Policier",
+    "Drame"
+   ],
+   "age": "12+",
+   "min": 99,
+   "art": "noir",
+   "pal": [
+    "#2a2a33",
+    "#050508",
+    "#e8e8f0"
+   ],
+   "tagline": "",
+   "desc": "Four robbers hold up an armored truck getting away with over a million dollars in cash. Joe Rolfe (John Payne), a down-on-his-luck flower delivery truck driver is accused of being involved and is beaten up by the local police. Released due to lack of evidence, Joe, following the clues to a Mexican resort, decides to look for the men who set him up and get revenge.",
+   "src": {
+    "archive": "kansascityconfidencial"
+   },
+   "poster": "https://archive.org/services/img/kansascityconfidencial",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-nothingsacred",
    "type": "film",
    "auto": "archive",
@@ -7839,33 +7866,6 @@
     "archive": "NothingSacred"
    },
    "poster": "https://archive.org/services/img/NothingSacred",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-kansascityconfidencial",
-   "type": "film",
-   "auto": "archive",
-   "title": "Kansas City Confidential",
-   "year": 1952,
-   "by": "Edward Small",
-   "genres": [
-    "Policier",
-    "Drame"
-   ],
-   "age": "12+",
-   "min": 99,
-   "art": "noir",
-   "pal": [
-    "#2a2a33",
-    "#050508",
-    "#e8e8f0"
-   ],
-   "tagline": "",
-   "desc": "Four robbers hold up an armored truck getting away with over a million dollars in cash. Joe Rolfe (John Payne), a down-on-his-luck flower delivery truck driver is accused of being involved and is beaten up by the local police. Released due to lack of evidence, Joe, following the clues to a Mexican resort, decides to look for the men who set him up and get revenge.",
-   "src": {
-    "archive": "kansascityconfidencial"
-   },
-   "poster": "https://archive.org/services/img/kansascityconfidencial",
    "lic": "Domaine public"
   },
   {
@@ -8084,6 +8084,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-mesaoflostwomen",
+   "type": "film",
+   "auto": "archive",
+   "title": "Mesa of Lost Women",
+   "year": 1953,
+   "by": "Melvin Gordon, William Perkins",
+   "genres": [
+    "Science-fiction"
+   ],
+   "age": "Tous publics",
+   "min": 67,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "A mad scientist named Aranya (Jackie Coogan) is creating giant spiders and dwarves in his lab on Zarpa Mesa in Mexico",
+   "src": {
+    "archive": "MesaOfLostWomen"
+   },
+   "poster": "https://archive.org/services/img/MesaOfLostWomen",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-big-bluff",
    "type": "film",
    "auto": "archive",
@@ -8109,32 +8135,6 @@
     "archive": "big_bluff"
    },
    "poster": "https://archive.org/services/img/big_bluff",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-mesaoflostwomen",
-   "type": "film",
-   "auto": "archive",
-   "title": "Mesa of Lost Women",
-   "year": 1953,
-   "by": "Melvin Gordon, William Perkins",
-   "genres": [
-    "Science-fiction"
-   ],
-   "age": "Tous publics",
-   "min": 67,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "A mad scientist named Aranya (Jackie Coogan) is creating giant spiders and dwarves in his lab on Zarpa Mesa in Mexico",
-   "src": {
-    "archive": "MesaOfLostWomen"
-   },
-   "poster": "https://archive.org/services/img/MesaOfLostWomen",
    "lic": "Domaine public"
   },
   {
@@ -8270,33 +8270,6 @@
    "lic": "Creative Commons (by/3.0)"
   },
   {
-   "id": "ar-publicdomainthelastofthemohicans",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Last of the Mohicans",
-   "year": 1920,
-   "by": "Inconnu",
-   "genres": [
-    "Drame",
-    "Muet"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "Adaptation of James Fenimore Cooper novel about the American frontier during the French and Indian War.",
-   "src": {
-    "archive": "PublicdomainTheLastoftheMohicans"
-   },
-   "poster": "https://archive.org/services/img/PublicdomainTheLastoftheMohicans",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-the-star-packer",
    "type": "film",
    "auto": "archive",
@@ -8349,6 +8322,33 @@
     "archive": "BattleofBloodIsland"
    },
    "poster": "https://archive.org/services/img/BattleofBloodIsland",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-publicdomainthelastofthemohicans",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Last of the Mohicans",
+   "year": 1920,
+   "by": "Inconnu",
+   "genres": [
+    "Drame",
+    "Muet"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "Adaptation of James Fenimore Cooper novel about the American frontier during the French and Indian War.",
+   "src": {
+    "archive": "PublicdomainTheLastoftheMohicans"
+   },
+   "poster": "https://archive.org/services/img/PublicdomainTheLastoftheMohicans",
    "lic": "Domaine public"
   },
   {
@@ -8461,6 +8461,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-the-sadist",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Sadist",
+   "year": 1963,
+   "by": "L. Steven Snyder",
+   "genres": [
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 92,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "This is believed to be the first feature film based on real life serial killers Charles Starkweather and Caril Fugate. Mainstream Hollywood would not produce films inspired by the pair until a decade after this one. A number of films were inspired by the duo (some very loosely) and included such major examples as Terrence Malick's Badlands (1973) and Oliver Stone's Natural Born Killers (1994)",
+   "src": {
+    "archive": "The_Sadist"
+   },
+   "poster": "https://archive.org/services/img/The_Sadist",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-ateneafilmspublicdomaintheinvincibleglad",
    "type": "film",
    "auto": "archive",
@@ -8510,32 +8536,6 @@
     "archive": "Tonightandeverynight"
    },
    "poster": "https://archive.org/services/img/Tonightandeverynight",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-the-sadist",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Sadist",
-   "year": 1963,
-   "by": "L. Steven Snyder",
-   "genres": [
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 92,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "This is believed to be the first feature film based on real life serial killers Charles Starkweather and Caril Fugate. Mainstream Hollywood would not produce films inspired by the pair until a decade after this one. A number of films were inspired by the duo (some very loosely) and included such major examples as Terrence Malick's Badlands (1973) and Oliver Stone's Natural Born Killers (1994)",
-   "src": {
-    "archive": "The_Sadist"
-   },
-   "poster": "https://archive.org/services/img/The_Sadist",
    "lic": "Domaine public"
   },
   {
@@ -8591,32 +8591,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-lastmanonearth-1964",
-   "type": "film",
-   "auto": "archive",
-   "title": "Last Man on Earth",
-   "year": 1930,
-   "by": "Inconnu",
-   "genres": [
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 80,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "sole survivor in a world of vampires staring vincent price, first of three movies based on this story.",
-   "src": {
-    "archive": "lastmanonearth-1964"
-   },
-   "poster": "https://archive.org/services/img/lastmanonearth-1964",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-abucketofblood1959",
    "type": "film",
    "auto": "archive",
@@ -8640,6 +8614,32 @@
     "archive": "ABucketOfBlood1959"
    },
    "poster": "https://archive.org/services/img/ABucketOfBlood1959",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-lastmanonearth-1964",
+   "type": "film",
+   "auto": "archive",
+   "title": "Last Man on Earth",
+   "year": 1930,
+   "by": "Inconnu",
+   "genres": [
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 80,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "sole survivor in a world of vampires staring vincent price, first of three movies based on this story.",
+   "src": {
+    "archive": "lastmanonearth-1964"
+   },
+   "poster": "https://archive.org/services/img/lastmanonearth-1964",
    "lic": "Domaine public"
   },
   {
@@ -8725,32 +8725,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-flight-to-nowhere",
-   "type": "film",
-   "auto": "archive",
-   "title": "Flight to Nowhere",
-   "year": 1946,
-   "by": "Inconnu",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "flight_to_nowhere"
-   },
-   "poster": "https://archive.org/services/img/flight_to_nowhere",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-gung-ho",
    "type": "film",
    "auto": "archive",
@@ -8775,6 +8749,32 @@
     "archive": "Gung_Ho"
    },
    "poster": "https://archive.org/services/img/Gung_Ho",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-flight-to-nowhere",
+   "type": "film",
+   "auto": "archive",
+   "title": "Flight to Nowhere",
+   "year": 1946,
+   "by": "Inconnu",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "flight_to_nowhere"
+   },
+   "poster": "https://archive.org/services/img/flight_to_nowhere",
    "lic": "Domaine public"
   },
   {
@@ -8885,32 +8885,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-call-of-the-yukon",
-   "type": "film",
-   "auto": "archive",
-   "title": "Call of the Yukon",
-   "year": 1938,
-   "by": "Inconnu",
-   "genres": [
-    "Aventure"
-   ],
-   "age": "Tous publics",
-   "min": 66,
-   "art": "sea",
-   "pal": [
-    "#1a5c8a",
-    "#03111f",
-    "#7ae0ff"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "call_of_the_yukon"
-   },
-   "poster": "https://archive.org/services/img/call_of_the_yukon",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-theincrediblepetrifiedworld",
    "type": "film",
    "auto": "archive",
@@ -8936,6 +8910,32 @@
     "archive": "TheIncrediblePetrifiedWorld"
    },
    "poster": "https://archive.org/services/img/TheIncrediblePetrifiedWorld",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-call-of-the-yukon",
+   "type": "film",
+   "auto": "archive",
+   "title": "Call of the Yukon",
+   "year": 1938,
+   "by": "Inconnu",
+   "genres": [
+    "Aventure"
+   ],
+   "age": "Tous publics",
+   "min": 66,
+   "art": "sea",
+   "pal": [
+    "#1a5c8a",
+    "#03111f",
+    "#7ae0ff"
+   ],
+   "tagline": "",
+   "desc": "You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "call_of_the_yukon"
+   },
+   "poster": "https://archive.org/services/img/call_of_the_yukon",
    "lic": "Domaine public"
   },
   {
@@ -9394,6 +9394,34 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-hisgirlfriday-1940",
+   "type": "film",
+   "auto": "archive",
+   "title": "His Girl Friday - 1940",
+   "year": 1940,
+   "by": "Inconnu",
+   "genres": [
+    "Comédie",
+    "Romance",
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 88,
+   "art": "family",
+   "pal": [
+    "#ff7a5c",
+    "#2a0f3d",
+    "#fff35c"
+   ],
+   "tagline": "",
+   "desc": "His Girl Friday is a 1940 American comedy film directed by Howard Hawks starring Cary Grant, Rosalind Russell and Ralph Bellamy. Walter Burns (Cary Grant) is a newspaper editor who learns his ex-wife is about to marry a bland insurance man and settle down to a quiet life. Walter determines to sabotage these plans and uses every trick in the book to keep his ex-wife from remarrying. This movie is public domain.…",
+   "src": {
+    "archive": "HisGirlFriday-1940"
+   },
+   "poster": "https://archive.org/services/img/HisGirlFriday-1940",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-pygmalion",
    "type": "film",
    "auto": "archive",
@@ -9420,34 +9448,6 @@
     "archive": "Pygmalion"
    },
    "poster": "https://archive.org/services/img/Pygmalion",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-hisgirlfriday-1940",
-   "type": "film",
-   "auto": "archive",
-   "title": "His Girl Friday - 1940",
-   "year": 1940,
-   "by": "Inconnu",
-   "genres": [
-    "Comédie",
-    "Romance",
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 88,
-   "art": "family",
-   "pal": [
-    "#ff7a5c",
-    "#2a0f3d",
-    "#fff35c"
-   ],
-   "tagline": "",
-   "desc": "His Girl Friday is a 1940 American comedy film directed by Howard Hawks starring Cary Grant, Rosalind Russell and Ralph Bellamy. Walter Burns (Cary Grant) is a newspaper editor who learns his ex-wife is about to marry a bland insurance man and settle down to a quiet life. Walter determines to sabotage these plans and uses every trick in the book to keep his ex-wife from remarrying. This movie is public domain.…",
-   "src": {
-    "archive": "HisGirlFriday-1940"
-   },
-   "poster": "https://archive.org/services/img/HisGirlFriday-1940",
    "lic": "Domaine public"
   },
   {
@@ -9611,32 +9611,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-cc-1916-05-27-police",
-   "type": "film",
-   "auto": "archive",
-   "title": "Charlie Chaplin's \"Police\"",
-   "year": 1916,
-   "by": "Inconnu",
-   "genres": [
-    "Muet"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "expr",
-   "pal": [
-    "#5a3d2a",
-    "#140b06",
-    "#e8c27a"
-   ],
-   "tagline": "",
-   "desc": "Charlie Chaplin's 49th Film Released May 27 1916 Police was Charlie Chaplin's 14th released film from Essanay. It was made at the Majestic Studio in Los Angeles. Charlie playing an ex-convict finds life on the outside not to his liking and leads him to breaking into a home with another thief (Wesley Ruggles). Edna Purviance plays the girl living in the home who tries to change him. Charlie Chaplin In The Internet…",
-   "src": {
-    "archive": "CC_1916_05_27_Police"
-   },
-   "poster": "https://archive.org/services/img/CC_1916_05_27_Police",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-vengeancevalley",
    "type": "film",
    "auto": "archive",
@@ -9660,6 +9634,32 @@
     "archive": "VengeanceValley"
    },
    "poster": "https://archive.org/services/img/VengeanceValley",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-cc-1916-05-27-police",
+   "type": "film",
+   "auto": "archive",
+   "title": "Charlie Chaplin's \"Police\"",
+   "year": 1916,
+   "by": "Inconnu",
+   "genres": [
+    "Muet"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "expr",
+   "pal": [
+    "#5a3d2a",
+    "#140b06",
+    "#e8c27a"
+   ],
+   "tagline": "",
+   "desc": "Charlie Chaplin's 49th Film Released May 27 1916 Police was Charlie Chaplin's 14th released film from Essanay. It was made at the Majestic Studio in Los Angeles. Charlie playing an ex-convict finds life on the outside not to his liking and leads him to breaking into a home with another thief (Wesley Ruggles). Edna Purviance plays the girl living in the home who tries to change him. Charlie Chaplin In The Internet…",
+   "src": {
+    "archive": "CC_1916_05_27_Police"
+   },
+   "poster": "https://archive.org/services/img/CC_1916_05_27_Police",
    "lic": "Domaine public"
   },
   {
@@ -9743,6 +9743,33 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-mark-of-the-avenger-1938",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Mysterious Rider AKA Mark of the Avenger",
+   "year": 1938,
+   "by": "Harry Sherman",
+   "genres": [
+    "Western",
+    "Romance"
+   ],
+   "age": "Tous publics",
+   "min": 67,
+   "art": "western",
+   "pal": [
+    "#c96a2a",
+    "#2a1206",
+    "#ffcf5c"
+   ],
+   "tagline": "",
+   "desc": "Taken from IMDB : Ben Wade and his partner Frosty return to Bellounds' ranch where twenty years earlier Wade was wanted for murder",
+   "src": {
+    "archive": "mark_of_the_avenger_1938"
+   },
+   "poster": "https://archive.org/services/img/mark_of_the_avenger_1938",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-thecorpsevanishes",
    "type": "film",
    "auto": "archive",
@@ -9769,30 +9796,29 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-mark-of-the-avenger-1938",
+   "id": "ar-minesweeper-1943",
    "type": "film",
    "auto": "archive",
-   "title": "The Mysterious Rider AKA Mark of the Avenger",
-   "year": 1938,
-   "by": "Harry Sherman",
+   "title": "Minesweeper",
+   "year": 1943,
+   "by": "William H. Pine, William C. Thomas",
    "genres": [
-    "Western",
-    "Romance"
+    "Drame"
    ],
    "age": "Tous publics",
-   "min": 67,
-   "art": "western",
+   "min": 65,
+   "art": "drama",
    "pal": [
-    "#c96a2a",
-    "#2a1206",
-    "#ffcf5c"
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
    ],
    "tagline": "",
-   "desc": "Taken from IMDB : Ben Wade and his partner Frosty return to Bellounds' ranch where twenty years earlier Wade was wanted for murder",
+   "desc": "DANGER AFLOAT! ABOVE, BELOW AND ACROSS THE SEAS...WITH THE HEROIC MEN OF THE COAST GUARD! On hearing of the attack on Pearl Harbor, a hobo decides to join the Coast Guard under an assumed name -- because he deserted the Navy years before due to gambling debts. What follows is a combination of melodrama and suspense, as he gets tangled up in the lives of another military family, succumbs once again to his gambling…",
    "src": {
-    "archive": "mark_of_the_avenger_1938"
+    "archive": "Minesweeper_1943"
    },
-   "poster": "https://archive.org/services/img/mark_of_the_avenger_1938",
+   "poster": "https://archive.org/services/img/Minesweeper_1943",
    "lic": "Domaine public"
   },
   {
@@ -9872,32 +9898,6 @@
     "archive": "Daniel_Boone_-_Trail_Blazer"
    },
    "poster": "https://archive.org/services/img/Daniel_Boone_-_Trail_Blazer",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-minesweeper-1943",
-   "type": "film",
-   "auto": "archive",
-   "title": "Minesweeper",
-   "year": 1943,
-   "by": "William H. Pine, William C. Thomas",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 65,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "DANGER AFLOAT! ABOVE, BELOW AND ACROSS THE SEAS...WITH THE HEROIC MEN OF THE COAST GUARD! On hearing of the attack on Pearl Harbor, a hobo decides to join the Coast Guard under an assumed name -- because he deserted the Navy years before due to gambling debts. What follows is a combination of melodrama and suspense, as he gets tangled up in the lives of another military family, succumbs once again to his gambling…",
-   "src": {
-    "archive": "Minesweeper_1943"
-   },
-   "poster": "https://archive.org/services/img/Minesweeper_1943",
    "lic": "Domaine public"
   },
   {
@@ -10116,32 +10116,6 @@
    "lic": "Domaine public (œuvre de 1929)"
   },
   {
-   "id": "ar-revengeofthevirgins",
-   "type": "film",
-   "auto": "archive",
-   "title": "Revenge of the Virgins",
-   "year": 1930,
-   "by": "Inconnu",
-   "genres": [
-    "Western"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "western",
-   "pal": [
-    "#c96a2a",
-    "#2a1206",
-    "#ffcf5c"
-   ],
-   "tagline": "",
-   "desc": "Bizarre nudie-cutie western from 1959. It appears to be without copyright notice and no renewal is listed, so it's doubly PD.",
-   "src": {
-    "archive": "RevengeOfTheVirgins"
-   },
-   "poster": "https://archive.org/services/img/RevengeOfTheVirgins",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-arizona-stage-coach",
    "type": "film",
    "auto": "archive",
@@ -10170,30 +10144,30 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-fluegelschlagen",
+   "id": "ar-revengeofthevirgins",
    "type": "film",
    "auto": "archive",
-   "title": "1975 Flügelschlagen (wing flapping)",
-   "year": 1975,
-   "by": "Lutz Mommartz",
+   "title": "Revenge of the Virgins",
+   "year": 1930,
+   "by": "Inconnu",
    "genres": [
-    "Drame"
+    "Western"
    ],
    "age": "Tous publics",
    "min": 80,
-   "art": "drama",
+   "art": "western",
    "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
+    "#c96a2a",
+    "#2a1206",
+    "#ffcf5c"
    ],
    "tagline": "",
-   "desc": "With Margret Gloddek and Ingrid Lutz Der author and his partners. Multiple relationship as a way of life. The entire trilogy: 1976 Flügelschlagen (Wing flapping) Trilogie 1, 16 min 1978 Mehr als Zwei (More than two) Trilogie 2, 16:45 min 1979 Schattenkur (Cure of shadows) Trilogie 3, 15 min",
+   "desc": "Bizarre nudie-cutie western from 1959. It appears to be without copyright notice and no renewal is listed, so it's doubly PD.",
    "src": {
-    "archive": "FLUEGELSCHLAGEN"
+    "archive": "RevengeOfTheVirgins"
    },
-   "poster": "https://archive.org/services/img/FLUEGELSCHLAGEN",
-   "lic": "Creative Commons (by-nc-sa/4.0)"
+   "poster": "https://archive.org/services/img/RevengeOfTheVirgins",
+   "lic": "Domaine public"
   },
   {
    "id": "ar-port-of-new-york",
@@ -10248,6 +10222,32 @@
    },
    "poster": "https://archive.org/services/img/Hercules_Against_the_Moon_Men",
    "lic": "Domaine public"
+  },
+  {
+   "id": "ar-fluegelschlagen",
+   "type": "film",
+   "auto": "archive",
+   "title": "1975 Flügelschlagen (wing flapping)",
+   "year": 1975,
+   "by": "Lutz Mommartz",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "With Margret Gloddek and Ingrid Lutz Der author and his partners. Multiple relationship as a way of life. The entire trilogy: 1976 Flügelschlagen (Wing flapping) Trilogie 1, 16 min 1978 Mehr als Zwei (More than two) Trilogie 2, 16:45 min 1979 Schattenkur (Cure of shadows) Trilogie 3, 15 min",
+   "src": {
+    "archive": "FLUEGELSCHLAGEN"
+   },
+   "poster": "https://archive.org/services/img/FLUEGELSCHLAGEN",
+   "lic": "Creative Commons (by-nc-sa/4.0)"
   },
   {
    "id": "ar-great-commandment",
@@ -10356,6 +10356,32 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-the-mystery-of-mr-wong",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Mystery of Mr. Wong",
+   "year": 1939,
+   "by": "Inconnu",
+   "genres": [
+    "Policier"
+   ],
+   "age": "12+",
+   "min": 80,
+   "art": "noir",
+   "pal": [
+    "#2a2a33",
+    "#050508",
+    "#e8e8f0"
+   ],
+   "tagline": "",
+   "desc": "From IMDb : The second in the series of Mr. Wong features starring Boris Karloff finds wealthy gem-collector Brandon Edwards gaining possession of the largest star sapphire in the world, the 'Eye of the Daughter of the Moon', after it has been stolen in China. Edwards, at a party in his home, confides to Mr. Wong that his life is in danger. During a game of Charades, Edwards is mysteriously shot dead and the gem…",
+   "src": {
+    "archive": "The_Mystery_of_Mr._Wong"
+   },
+   "poster": "https://archive.org/services/img/The_Mystery_of_Mr._Wong",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-evilbrainfromouterspace",
    "type": "film",
    "auto": "archive",
@@ -10409,29 +10435,30 @@
    "lic": "Creative Commons (by-nc/3.0)"
   },
   {
-   "id": "ar-the-mystery-of-mr-wong",
+   "id": "ar-thisisnotatest",
    "type": "film",
    "auto": "archive",
-   "title": "The Mystery of Mr. Wong",
-   "year": 1939,
-   "by": "Inconnu",
+   "title": "This Is Not a Test",
+   "year": 1962,
+   "by": "Murray De Atley, Fredric Gadette",
    "genres": [
-    "Policier"
+    "Science-fiction",
+    "Drame"
    ],
-   "age": "12+",
-   "min": 80,
-   "art": "noir",
+   "age": "Tous publics",
+   "min": 73,
+   "art": "scifi",
    "pal": [
-    "#2a2a33",
-    "#050508",
-    "#e8e8f0"
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
    ],
    "tagline": "",
-   "desc": "From IMDb : The second in the series of Mr. Wong features starring Boris Karloff finds wealthy gem-collector Brandon Edwards gaining possession of the largest star sapphire in the world, the 'Eye of the Daughter of the Moon', after it has been stolen in China. Edwards, at a party in his home, confides to Mr. Wong that his life is in danger. During a game of Charades, Edwards is mysteriously shot dead and the gem…",
+   "desc": "Late one night on a rural road in the western US, a policeman sets up a roadblock and begins stopping all traffic. When several cars and a big truck have stopped, he and the others learn the reason for this roadblock........",
    "src": {
-    "archive": "The_Mystery_of_Mr._Wong"
+    "archive": "ThisisNotaTest"
    },
-   "poster": "https://archive.org/services/img/The_Mystery_of_Mr._Wong",
+   "poster": "https://archive.org/services/img/ThisisNotaTest",
    "lic": "Domaine public"
   },
   {
@@ -10515,60 +10542,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-gammera",
-   "type": "film",
-   "auto": "archive",
-   "title": "Gammera the Invincible",
-   "year": 1965,
-   "by": "Daiei",
-   "genres": [
-    "Science-fiction",
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 86,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "This was the only film in the original Gamera series to be released to American theaters. It was originally presented in America by World Entertainment Corp. and Harris Associates, Inc. who re-named the film Gammera the Invincible. All subsequent entries in the series were released directly to television by American International Productions Television. Gammera the Invincible's American premiere was in New Orleans…",
-   "src": {
-    "archive": "gammera"
-   },
-   "poster": "https://archive.org/services/img/gammera",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-thisisnotatest",
-   "type": "film",
-   "auto": "archive",
-   "title": "This Is Not a Test",
-   "year": 1962,
-   "by": "Murray De Atley, Fredric Gadette",
-   "genres": [
-    "Science-fiction",
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 73,
-   "art": "scifi",
-   "pal": [
-    "#3d8aff",
-    "#060a1a",
-    "#ff3d8a"
-   ],
-   "tagline": "",
-   "desc": "Late one night on a rural road in the western US, a policeman sets up a roadblock and begins stopping all traffic. When several cars and a big truck have stopped, he and the others learn the reason for this roadblock........",
-   "src": {
-    "archive": "ThisisNotaTest"
-   },
-   "poster": "https://archive.org/services/img/ThisisNotaTest",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-rainbowvalley",
    "type": "film",
    "auto": "archive",
@@ -10594,6 +10567,33 @@
     "archive": "RainbowValley"
    },
    "poster": "https://archive.org/services/img/RainbowValley",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-gammera",
+   "type": "film",
+   "auto": "archive",
+   "title": "Gammera the Invincible",
+   "year": 1965,
+   "by": "Daiei",
+   "genres": [
+    "Science-fiction",
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 86,
+   "art": "scifi",
+   "pal": [
+    "#3d8aff",
+    "#060a1a",
+    "#ff3d8a"
+   ],
+   "tagline": "",
+   "desc": "This was the only film in the original Gamera series to be released to American theaters. It was originally presented in America by World Entertainment Corp. and Harris Associates, Inc. who re-named the film Gammera the Invincible. All subsequent entries in the series were released directly to television by American International Productions Television. Gammera the Invincible's American premiere was in New Orleans…",
+   "src": {
+    "archive": "gammera"
+   },
+   "poster": "https://archive.org/services/img/gammera",
    "lic": "Domaine public"
   },
   {
@@ -10702,32 +10702,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-dont-look-in-thebasement",
-   "type": "film",
-   "auto": "archive",
-   "title": "Don't Look in the Basement",
-   "year": 1930,
-   "by": "Inconnu",
-   "genres": [
-    "Horreur"
-   ],
-   "age": "12+",
-   "min": 80,
-   "art": "horror",
-   "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
-   ],
-   "tagline": "",
-   "desc": "Nurse Charlotte Beale arrives at the isolated Stephens Sanitarium to work, only to learn that Dr. Stephens was murdered by one of the patients and his successor, Dr. Geraldine Masters, is not very eager to take on new staff. Charlotte finds her job maddeningly hard as the patients torment and harass her at every turn, and she soon learns why Dr. Masters is so eager to keep outsiders out.",
-   "src": {
-    "archive": "Dont_Look_in_theBasement"
-   },
-   "poster": "https://archive.org/services/img/Dont_Look_in_theBasement",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-hididdlediddle",
    "type": "film",
    "auto": "archive",
@@ -10752,6 +10726,32 @@
     "archive": "HiDiddleDiddle"
    },
    "poster": "https://archive.org/services/img/HiDiddleDiddle",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-dont-look-in-thebasement",
+   "type": "film",
+   "auto": "archive",
+   "title": "Don't Look in the Basement",
+   "year": 1930,
+   "by": "Inconnu",
+   "genres": [
+    "Horreur"
+   ],
+   "age": "12+",
+   "min": 80,
+   "art": "horror",
+   "pal": [
+    "#2a2f2a",
+    "#050605",
+    "#c9c3a6"
+   ],
+   "tagline": "",
+   "desc": "Nurse Charlotte Beale arrives at the isolated Stephens Sanitarium to work, only to learn that Dr. Stephens was murdered by one of the patients and his successor, Dr. Geraldine Masters, is not very eager to take on new staff. Charlotte finds her job maddeningly hard as the patients torment and harass her at every turn, and she soon learns why Dr. Masters is so eager to keep outsiders out.",
+   "src": {
+    "archive": "Dont_Look_in_theBasement"
+   },
+   "poster": "https://archive.org/services/img/Dont_Look_in_theBasement",
    "lic": "Domaine public"
   },
   {
@@ -10810,32 +10810,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-oh-susanna",
-   "type": "film",
-   "auto": "archive",
-   "title": "Oh, Susanna!",
-   "year": 1936,
-   "by": "Inconnu",
-   "genres": [
-    "Western"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "western",
-   "pal": [
-    "#c96a2a",
-    "#2a1206",
-    "#ffcf5c"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "oh_susanna"
-   },
-   "poster": "https://archive.org/services/img/oh_susanna",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-getchristielove",
    "type": "film",
    "auto": "archive",
@@ -10864,32 +10838,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-danielboone1936",
-   "type": "film",
-   "auto": "archive",
-   "title": "Daniel Boone",
-   "year": 1936,
-   "by": "Inconnu",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 75,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "The story of Daniel Boone in 1775 Kentucky and the hardships that they faced. Mystic Nights Videos",
-   "src": {
-    "archive": "DanielBoone1936"
-   },
-   "poster": "https://archive.org/services/img/DanielBoone1936",
-   "lic": "Domaine public"
-  },
-  {
    "id": "ar-randyridesalone",
    "type": "film",
    "auto": "archive",
@@ -10913,6 +10861,58 @@
     "archive": "RandyRidesAlone"
    },
    "poster": "https://archive.org/services/img/RandyRidesAlone",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-oh-susanna",
+   "type": "film",
+   "auto": "archive",
+   "title": "Oh, Susanna!",
+   "year": 1936,
+   "by": "Inconnu",
+   "genres": [
+    "Western"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "western",
+   "pal": [
+    "#c96a2a",
+    "#2a1206",
+    "#ffcf5c"
+   ],
+   "tagline": "",
+   "desc": "You can find more information regarding this film on its IMDb page .",
+   "src": {
+    "archive": "oh_susanna"
+   },
+   "poster": "https://archive.org/services/img/oh_susanna",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-danielboone1936",
+   "type": "film",
+   "auto": "archive",
+   "title": "Daniel Boone",
+   "year": 1936,
+   "by": "Inconnu",
+   "genres": [
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 75,
+   "art": "drama",
+   "pal": [
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
+   ],
+   "tagline": "",
+   "desc": "The story of Daniel Boone in 1775 Kentucky and the hardships that they faced. Mystic Nights Videos",
+   "src": {
+    "archive": "DanielBoone1936"
+   },
+   "poster": "https://archive.org/services/img/DanielBoone1936",
    "lic": "Domaine public"
   },
   {
@@ -10969,33 +10969,6 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-silent-episodes-in-the-life-of-a-gin-bot",
-   "type": "film",
-   "auto": "archive",
-   "title": "Episodes in the Life of a Gin Bottle",
-   "year": 1925,
-   "by": "John Ince Bela von Block Rex Lease",
-   "genres": [
-    "Muet",
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "expr",
-   "pal": [
-    "#5a3d2a",
-    "#140b06",
-    "#e8c27a"
-   ],
-   "tagline": "",
-   "desc": "Film libre de droits, version intégrale.",
-   "src": {
-    "archive": "silent-episodes-in-the-life-of-a-gin-bottle"
-   },
-   "poster": "https://archive.org/services/img/silent-episodes-in-the-life-of-a-gin-bottle",
-   "lic": "Domaine public (œuvre de 1925)"
-  },
-  {
    "id": "ar-hercules-unchained",
    "type": "film",
    "auto": "archive",
@@ -11021,6 +10994,33 @@
    },
    "poster": "https://archive.org/services/img/Hercules_Unchained",
    "lic": "Domaine public"
+  },
+  {
+   "id": "ar-silent-episodes-in-the-life-of-a-gin-bot",
+   "type": "film",
+   "auto": "archive",
+   "title": "Episodes in the Life of a Gin Bottle",
+   "year": 1925,
+   "by": "John Ince Bela von Block Rex Lease",
+   "genres": [
+    "Muet",
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 80,
+   "art": "expr",
+   "pal": [
+    "#5a3d2a",
+    "#140b06",
+    "#e8c27a"
+   ],
+   "tagline": "",
+   "desc": "Film libre de droits, version intégrale.",
+   "src": {
+    "archive": "silent-episodes-in-the-life-of-a-gin-bottle"
+   },
+   "poster": "https://archive.org/services/img/silent-episodes-in-the-life-of-a-gin-bottle",
+   "lic": "Domaine public (œuvre de 1925)"
   },
   {
    "id": "ar-doomed-to-die-1940",
@@ -11073,6 +11073,60 @@
     "archive": "Marihuana-the_Devils_Weed"
    },
    "poster": "https://archive.org/services/img/Marihuana-the_Devils_Weed",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-thelimpingman",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Limping Man",
+   "year": 1953,
+   "by": "Donald Ginsberg",
+   "genres": [
+    "Policier",
+    "Drame"
+   ],
+   "age": "12+",
+   "min": 76,
+   "art": "noir",
+   "pal": [
+    "#2a2a33",
+    "#050508",
+    "#e8e8f0"
+   ],
+   "tagline": "",
+   "desc": "World War II vet Frank Pryor (Lloyd Bridges) returns to London from America after six years to look up an old flame, Pauline French (Moira Lister), now a successful actress. As he and the other passengers deplane and walk across to the terminal, Frank pauses for a moment and asks the man beside him for a light. There's a gunshot and the man crumples to the ground, shot by a marksman with a high-powered rifle, an…",
+   "src": {
+    "archive": "TheLimpingMan"
+   },
+   "poster": "https://archive.org/services/img/TheLimpingMan",
+   "lic": "Domaine public"
+  },
+  {
+   "id": "ar-go-for-broke",
+   "type": "film",
+   "auto": "archive",
+   "title": "Go for Broke!",
+   "year": 1951,
+   "by": "Dore Schary",
+   "genres": [
+    "Historique",
+    "Drame"
+   ],
+   "age": "Tous publics",
+   "min": 92,
+   "art": "epic",
+   "pal": [
+    "#8a3d1a",
+    "#1a0a04",
+    "#ffb35c"
+   ],
+   "tagline": "",
+   "desc": "The film dramatizes the real-life story of the 442nd Regimental Combat Team, which was composed of Nisei, second-generation Americans born of Japanese parents. Fighting in the European theater during World War II, this unit became the most heavily decorated unit for its size and length of service in the history of the United States Army. As well as one of the units with the highest casualty rates.",
+   "src": {
+    "archive": "Go_for_Broke"
+   },
+   "poster": "https://archive.org/services/img/Go_for_Broke",
    "lic": "Domaine public"
   },
   {
@@ -11131,57 +11185,29 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-go-for-broke",
+   "id": "ar-here-is-germany",
    "type": "film",
    "auto": "archive",
-   "title": "Go for Broke!",
-   "year": 1951,
-   "by": "Dore Schary",
+   "title": "Here is Germany",
+   "year": 1945,
+   "by": "Inconnu",
    "genres": [
-    "Historique",
     "Drame"
    ],
    "age": "Tous publics",
-   "min": 92,
-   "art": "epic",
+   "min": 50,
+   "art": "drama",
    "pal": [
-    "#8a3d1a",
-    "#1a0a04",
-    "#ffb35c"
+    "#5c2a3d",
+    "#12060c",
+    "#ffb38a"
    ],
    "tagline": "",
-   "desc": "The film dramatizes the real-life story of the 442nd Regimental Combat Team, which was composed of Nisei, second-generation Americans born of Japanese parents. Fighting in the European theater during World War II, this unit became the most heavily decorated unit for its size and length of service in the history of the United States Army. As well as one of the units with the highest casualty rates.",
+   "desc": "Here is Germany was made to prepare soldiers who had not seen combat to go to Germany for the US occupation after the May 8, 1945 unconditional surrender. The film was, however, never used for its intended purpose. Here is Germany was a 1945 propaganda documentary film directed by Frank Capra. Like its companion film, Know Your Enemy: Japan, the film is a full-length exploration of why one of the two major Axis…",
    "src": {
-    "archive": "Go_for_Broke"
+    "archive": "HERE_IS_GERMANY"
    },
-   "poster": "https://archive.org/services/img/Go_for_Broke",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-thelimpingman",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Limping Man",
-   "year": 1953,
-   "by": "Donald Ginsberg",
-   "genres": [
-    "Policier",
-    "Drame"
-   ],
-   "age": "12+",
-   "min": 76,
-   "art": "noir",
-   "pal": [
-    "#2a2a33",
-    "#050508",
-    "#e8e8f0"
-   ],
-   "tagline": "",
-   "desc": "World War II vet Frank Pryor (Lloyd Bridges) returns to London from America after six years to look up an old flame, Pauline French (Moira Lister), now a successful actress. As he and the other passengers deplane and walk across to the terminal, Frank pauses for a moment and asks the man beside him for a light. There's a gunshot and the man crumples to the ground, shot by a marksman with a high-powered rifle, an…",
-   "src": {
-    "archive": "TheLimpingMan"
-   },
-   "poster": "https://archive.org/services/img/TheLimpingMan",
+   "poster": "https://archive.org/services/img/HERE_IS_GERMANY",
    "lic": "Domaine public"
   },
   {
@@ -11212,17 +11238,17 @@
    "lic": "Domaine public (œuvre de 1925)"
   },
   {
-   "id": "ar-here-is-germany",
+   "id": "ar-brand-of-the-devil",
    "type": "film",
    "auto": "archive",
-   "title": "Here is Germany",
-   "year": 1945,
-   "by": "Inconnu",
+   "title": "Brand of the Devil",
+   "year": 1944,
+   "by": "Arthur Alexander",
    "genres": [
     "Drame"
    ],
    "age": "Tous publics",
-   "min": 50,
+   "min": 80,
    "art": "drama",
    "pal": [
     "#5c2a3d",
@@ -11230,11 +11256,11 @@
     "#ffb38a"
    ],
    "tagline": "",
-   "desc": "Here is Germany was made to prepare soldiers who had not seen combat to go to Germany for the US occupation after the May 8, 1945 unconditional surrender. The film was, however, never used for its intended purpose. Here is Germany was a 1945 propaganda documentary film directed by Frank Capra. Like its companion film, Know Your Enemy: Japan, the film is a full-length exploration of why one of the two major Axis…",
+   "desc": "You can find more information regarding this film on its IMDb page .",
    "src": {
-    "archive": "HERE_IS_GERMANY"
+    "archive": "brand_of_the_devil"
    },
-   "poster": "https://archive.org/services/img/HERE_IS_GERMANY",
+   "poster": "https://archive.org/services/img/brand_of_the_devil",
    "lic": "Domaine public"
   },
   {
@@ -11261,32 +11287,6 @@
     "archive": "The_Red_Detachment_of_Women"
    },
    "poster": "https://archive.org/services/img/The_Red_Detachment_of_Women",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-brand-of-the-devil",
-   "type": "film",
-   "auto": "archive",
-   "title": "Brand of the Devil",
-   "year": 1944,
-   "by": "Arthur Alexander",
-   "genres": [
-    "Drame"
-   ],
-   "age": "Tous publics",
-   "min": 80,
-   "art": "drama",
-   "pal": [
-    "#5c2a3d",
-    "#12060c",
-    "#ffb38a"
-   ],
-   "tagline": "",
-   "desc": "You can find more information regarding this film on its IMDb page .",
-   "src": {
-    "archive": "brand_of_the_devil"
-   },
-   "poster": "https://archive.org/services/img/brand_of_the_devil",
    "lic": "Domaine public"
   },
   {
@@ -11368,6 +11368,33 @@
    "lic": "Domaine public"
   },
   {
+   "id": "ar-thearizonaraiders",
+   "type": "film",
+   "auto": "archive",
+   "title": "The Arizona Raiders",
+   "year": 1936,
+   "by": "A.M. Botsford",
+   "genres": [
+    "Comédie",
+    "Western"
+   ],
+   "age": "Tous publics",
+   "min": 57,
+   "art": "family",
+   "pal": [
+    "#ff7a5c",
+    "#2a0f3d",
+    "#fff35c"
+   ],
+   "tagline": "",
+   "desc": "After saving himself from hanging, Laramie Nelson (Buster Crabbe) saves Tracks Williams (Raymond Hatton) from the same fate. They then travel to Lindsay's ranch where they get jobs. There they run into Adams (Grant Withers) who they learn is planning to rustle Lindsay's horses.",
+   "src": {
+    "archive": "TheArizonaRaiders"
+   },
+   "poster": "https://archive.org/services/img/TheArizonaRaiders",
+   "lic": "Domaine public"
+  },
+  {
    "id": "ar-calendar-girl",
    "type": "film",
    "auto": "archive",
@@ -11418,33 +11445,6 @@
     "archive": "Bar-ZBadMen"
    },
    "poster": "https://archive.org/services/img/Bar-ZBadMen",
-   "lic": "Domaine public"
-  },
-  {
-   "id": "ar-thearizonaraiders",
-   "type": "film",
-   "auto": "archive",
-   "title": "The Arizona Raiders",
-   "year": 1936,
-   "by": "A.M. Botsford",
-   "genres": [
-    "Comédie",
-    "Western"
-   ],
-   "age": "Tous publics",
-   "min": 57,
-   "art": "family",
-   "pal": [
-    "#ff7a5c",
-    "#2a0f3d",
-    "#fff35c"
-   ],
-   "tagline": "",
-   "desc": "After saving himself from hanging, Laramie Nelson (Buster Crabbe) saves Tracks Williams (Raymond Hatton) from the same fate. They then travel to Lindsay's ranch where they get jobs. There they run into Adams (Grant Withers) who they learn is planning to rustle Lindsay's horses.",
-   "src": {
-    "archive": "TheArizonaRaiders"
-   },
-   "poster": "https://archive.org/services/img/TheArizonaRaiders",
    "lic": "Domaine public"
   },
   {
@@ -11553,29 +11553,29 @@
    "lic": "Domaine public"
   },
   {
-   "id": "ar-werewolf-in-a-girls-dormitory",
+   "id": "ar-itcanbedoneamigo",
    "type": "film",
    "auto": "archive",
-   "title": "Werewolf in a Girls' Dormitory",
-   "year": 1962,
-   "by": "Guido Giambartolomei",
+   "title": "It Can Be Done Amigo",
+   "year": 1972,
+   "by": "AtlÃ¡ntida Films",
    "genres": [
-    "Horreur"
+    "Western"
    ],
-   "age": "12+",
-   "min": 80,
-   "art": "horror",
+   "age": "Tous publics",
+   "min": 97,
+   "art": "western",
    "pal": [
-    "#2a2f2a",
-    "#050605",
-    "#c9c3a6"
+    "#c96a2a",
+    "#2a1206",
+    "#ffcf5c"
    ],
    "tagline": "",
-   "desc": "From IMDb : The new science teacher Dr. Julian Olcott (Carl Schell) with a mysterious past arrives in an institutional boarding school for troublemaker girls. Along the night, the intern Mary Smith (Mary McNeeran), who is blackmailing another teacher - Sir Alfred Whiteman (Maurice Marsac) - with some love letters, is slaughtered by a werewolf. The detective in charge of the investigation attributes the crime to a…",
+   "desc": "A drifter with fast fists and a gunfighter- pimp with fast guns help a child to claim his inheritance. - IMDB Description",
    "src": {
-    "archive": "Werewolf_In_A_Girls_Dormitory"
+    "archive": "ItCanBeDoneAmigo"
    },
-   "poster": "https://archive.org/services/img/Werewolf_In_A_Girls_Dormitory",
+   "poster": "https://archive.org/services/img/ItCanBeDoneAmigo",
    "lic": "Domaine public",
    "isNew": 1
   },
